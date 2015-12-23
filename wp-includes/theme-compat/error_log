@@ -1,0 +1,5 @@
+[05-Jun-2015 12:48:30 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/voyagess/public_html/wp-includes/theme-compat/footer.php on line 10
+[05-Jun-2015 12:48:30 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/voyagess/public_html/wp-includes/theme-compat/header.php on line 10
+[05-Jun-2015 12:48:30 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/voyagess/public_html/wp-includes/theme-compat/sidebar.php on line 10
+[05-Jun-2015 12:48:30 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/voyagess/public_html/wp-includes/theme-compat/comments.php on line 10
+[05-Jun-2015 12:48:30 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/voyagess/public_html/wp-includes/theme-compat/comments-popup.php on line 10

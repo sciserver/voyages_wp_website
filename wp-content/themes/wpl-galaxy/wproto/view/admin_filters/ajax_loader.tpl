@@ -1,0 +1,1 @@
+<img width="16" height="16" src="<?php echo WPROTO_THEME_URL; ?>/images/admin/ajax-loader<?php echo wpl_galaxy_wp_utils::is_retina() ? '@2x' : ''; ?>.gif" id="wproto-list-posts-loader" style="display: none;" alt="" /> 

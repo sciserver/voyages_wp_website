@@ -1,0 +1,169 @@
+html, body{
+	max-width: 100%;
+	font: 13px/20px normal sans-serif, Arial, Helvetica;
+}
+html {
+	padding: 10px !important; 
+}
+body {
+	width: 100% !important;
+	max-width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+p {
+	padding: 0;
+	margin: 0 0 10px 0;
+	text-indent: 0;
+}
+.whole, .half, .one-third, .two-thirds, .one-quarter, .three-quarters, .one-fifth, .one-sixth, .two-fifths, .three-fifths, .four-fifths, .golden-small, .golden-large, .wproto-shortcode {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px dashed #ccc;
+	min-height: 1.4em;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	zoom: 1;
+	*display: inline;
+}
+.wproto-visual-shortcode {
+	display: block;
+	margin: 1px;
+	padding: 0;
+	border: 1px dashed #ccc;
+	height: 135px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	.wproto-visual-shortcode {
+		background-size: 10% !important;
+	}
+}
+.wproto-visual-shortcode img {
+	width: 100%;
+	height: 135px;
+	opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); 
+}
+.unit .wproto-visual-shortcode {
+	border: 0 !important;
+	margin: -3px -10px -10px -10px !important;
+}
+.whole {
+	width: 100%;
+}
+.half {
+	width: 50%;
+}
+.one-third  {
+	width: 33.3332%;
+}
+.two-thirds {
+	width: 66.6665%;
+}
+.one-quarter {
+	width: 25%;
+}
+.three-quarters {
+	width: 75%;
+}
+.one-fifth {
+	width: 20%;
+}
+.one-sixth {
+	width: 16.6666%;
+}
+.two-fifths {
+	width: 40%;
+}
+.three-fifths {
+	width: 60%;
+}
+.four-fifths {
+	width: 80%;
+}
+.golden-small {
+	width: 38.2716%;
+}
+.golden-large {
+	width: 61.7283%;
+}
+
+.half:before, .one-third:before, .whole:before, .two-thirds:before, .one-quarter:before, .three-quarters:before,
+.one-fifth:before, .one-sixth:before, .two-fifths:before, .three-fifths:before, .four-fifths:before, .golden-small:before, .golden-large:before, .wproto-shortcode:before {
+	display: block;
+	height: 12px;
+	line-height: 11px;
+	font-size: 10px;
+	color: #5a5959;
+	background: #e5e5e5;
+	background-image: linear-gradient(bottom, rgb(236,236,236) 24%, rgb(248,248,248) 62%);
+	background-image: -o-linear-gradient(bottom, rgb(236,236,236) 24%, rgb(248,248,248) 62%);
+	background-image: -moz-linear-gradient(bottom, rgb(236,236,236) 24%, rgb(248,248,248) 62%);
+	background-image: -webkit-linear-gradient(bottom, rgb(236,236,236) 24%, rgb(248,248,248) 62%);
+	background-image: -ms-linear-gradient(bottom, rgb(236,236,236) 24%, rgb(248,248,248) 62%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.24, rgb(236,236,236)),
+		color-stop(0.62, rgb(248,248,248))
+	);
+	padding: 5px;
+	text-align: center;
+	margin: -10px -10px 3px -10px;
+	text-shadow: 1px 1px 0px #fff;
+}
+.whole:before {
+	content: "\221E";
+}
+.half:before {
+	content: "1/2";
+}
+.one-third:before {
+	content: "1/3";
+}
+.two-thirds:before {
+	content: "2/3";
+}
+.one-quarter:before {
+	content: "1/4";
+}
+.three-quarters:before {
+	content: "3/4";
+}
+.one-fifth:before {
+	content: "1/5";
+}
+.one-sixth:before {
+	content: "1/6";
+}
+.two-fifths:before {
+	content: "2/5";
+}
+.three-fifths:before {
+	content: "3/5";
+}
+.four-fifths:before {
+	content: "4/5";
+}
+.golden-small:before {
+	content: "Golden ratio (small)";
+}
+.golden-large:before {
+	content: "Golden ratio (large)";
+}
+form, fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}

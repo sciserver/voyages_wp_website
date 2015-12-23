@@ -1,0 +1,1 @@
+<p><?php _e( 'Theme created by <a target="_blank" href="http://themeforest.net/user/wplab?ref=wplab">WPlab</a>', 'wproto'); ?>. <a href="javascript:;" class="alignright" id="wproto-turnoff-infobox"><?php _e('Hide', 'wproto'); ?></a></p>

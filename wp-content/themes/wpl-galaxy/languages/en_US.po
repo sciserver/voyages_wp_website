@@ -1,0 +1,6912 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Galaxy\n"
+"POT-Creation-Date: 2014-07-24 16:12+0200\n"
+"PO-Revision-Date: 2014-07-24 16:12+0200\n"
+"Last-Translator: WPlab.pro <support@wplab.pro>\n"
+"Language-Team: WPlab.pro <support@wplab.pro>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "404 - page not found"
+msgstr ""
+
+#: 404.php:31
+msgid "404 error"
+msgstr ""
+
+#: 404.php:33
+msgid "We're sorry, but the page doesn't exist"
+msgstr ""
+
+#: 404.php:41 part-searchform.php:2 search.php:44
+#: wproto/widget/woocommerce/woo-product-search.php:26
+msgid "Search request here"
+msgstr ""
+
+#: author.php:17
+msgid "Author's page"
+msgstr ""
+
+#: author.php:32 wproto/controller/post-controller.php:155
+#: wproto/controller/post-controller.php:324
+msgid "Author"
+msgstr ""
+
+#: author.php:37
+msgid "Social profiles"
+msgstr ""
+
+#: author.php:75
+msgid "Posted by this author"
+msgstr ""
+
+#: author.php:80
+msgid "This author has no published posts."
+msgstr ""
+
+#: comments.php:17
+#, php-format
+msgid "<span>1</span> comment"
+msgid_plural "<span>%1$s</span> comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: comments.php:56 page-tpl-contacts.php:65
+#: woocommerce/single-product-reviews.php:54
+#: wproto/controller/post-controller.php:139
+#: wproto/controller/team-controller.php:96
+#: wproto/controller/testimonials-controller.php:34
+#: wproto/view/shortcodes/contact_form.tpl:14
+msgid "Name"
+msgstr ""
+
+#: comments.php:64 page-tpl-contacts.php:74 page-tpl-contacts.php:137
+#: woocommerce/single-product-reviews.php:56
+msgid "Email"
+msgstr ""
+
+#: comments.php:73
+msgid "Comment"
+msgstr ""
+
+#: comments.php:87 wproto/view/settings/settings.tpl:8
+msgid "Captcha"
+msgstr ""
+
+#: comments.php:97
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:109
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:152
+msgid "Reply"
+msgstr ""
+
+#: comments.php:165
+msgid "Pingback"
+msgstr ""
+
+#: header-one-page.php:72 index.php:22 wproto/helper/front.php:699
+#: wproto/view/metaboxes/menu_archives.tpl:24
+#: wproto/view/metaboxes/menu_archives.tpl:28
+msgid "Blog"
+msgstr ""
+
+#: header.php:33
+msgid "Search..."
+msgstr ""
+
+#: header.php:40
+msgid "My account"
+msgstr ""
+
+#: header.php:41
+msgid "Cart:"
+msgstr ""
+
+#: header.php:41
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:62
+msgid "Call us:"
+msgstr ""
+
+#: header.php:83
+msgid "Phone:"
+msgstr ""
+
+#: header.php:84 woocommerce/order/order-details.php:102
+#: wproto/widget/wproto_contacts.php:76
+msgid "Email:"
+msgstr ""
+
+#: index.php:24
+msgid "Blog Archive"
+msgstr ""
+
+#: index.php:26
+#, php-format
+msgid "Posts in &laquo;%s&raquo; category"
+msgstr ""
+
+#: index.php:28
+#, php-format
+msgid "Posts tagged with &laquo;%s&raquo;"
+msgstr ""
+
+#: index.php:30
+#, php-format
+msgid "Works in &laquo;%s&raquo; category"
+msgstr ""
+
+#: index.php:32
+#, php-format
+msgid "Products in &laquo;%s&raquo; category"
+msgstr ""
+
+#: index.php:34
+#, php-format
+msgid "Albums in &laquo;%s&raquo; category"
+msgstr ""
+
+#: index.php:36
+#, php-format
+msgid "Videos in &laquo;%s&raquo; category"
+msgstr ""
+
+#: index.php:38
+#, php-format
+msgid "Videos tagged with &laquo;%s&raquo;"
+msgstr ""
+
+#: index.php:40
+#, php-format
+msgid "Products tagged with &laquo;%s&raquo;"
+msgstr ""
+
+#: index.php:93
+msgid "No posts were found"
+msgstr ""
+
+#: index.php:95
+msgid "We're sorry, but this section does not have any post yet"
+msgstr ""
+
+#: layouts/four_columns.php:67 layouts/masonry.php:75 layouts/masonry.php:126
+#: layouts/one_column_grid.php:66 layouts/one_column_grid.php:104
+#: layouts/one_column_list.php:117 layouts/one_column_list.php:153
+#: layouts/three_columns.php:67 layouts/timeline.php:111
+#: layouts/timeline.php:146 layouts/two_columns.php:67 sections/posts.php:43
+#: sections/posts_photoalbum.php:43 sections/posts_video.php:39
+msgid "Read in details"
+msgstr ""
+
+#: layouts/four_columns.php:88 layouts/masonry.php:103
+#: layouts/one_column_grid.php:87 layouts/three_columns.php:88
+msgid "View video"
+msgstr ""
+
+#: layouts/four_columns.php:105 layouts/four_columns.php:165
+#: layouts/three_columns.php:105 layouts/three_columns.php:165
+#: layouts/two_columns.php:103 layouts/two_columns.php:163
+msgid "Read more"
+msgstr ""
+
+#: layouts/four_columns.php:159 layouts/masonry.php:176
+#: layouts/one_column_grid.php:208 layouts/one_column_list.php:199
+#: layouts/three_columns.php:159 layouts/timeline.php:165
+#: layouts/two_columns.php:157 wproto/view/widgets/blog_posts.tpl:57
+msgid "In"
+msgstr ""
+
+#: layouts/hexagon.php:22 layouts/hexagon.php:33
+msgid "View post"
+msgstr ""
+
+#: layouts/hexagon.php:26 sections/hexagon_carousel.php:50
+msgid "View details"
+msgstr ""
+
+#: layouts/hexagon.php:27 sections/hexagon_carousel.php:54
+msgid "Launch project"
+msgstr ""
+
+#: layouts/hexagon.php:37
+msgid "View album"
+msgstr ""
+
+#: layouts/hexagon.php:41
+msgid "View product"
+msgstr ""
+
+#: layouts/masonry.php:171 layouts/one_column_grid.php:201
+#: layouts/one_column_list.php:193 layouts/timeline.php:159
+#: wproto/view/widgets/blog_posts.tpl:52
+msgid "By"
+msgstr ""
+
+#: layouts/masonry.php:182 layouts/one_column_grid.php:214
+#: layouts/one_column_list.php:205 layouts/timeline.php:171
+#: sections/posts.php:55 sections/posts_photoalbum.php:55
+#: sections/posts_video.php:51 wproto/helper/front.php:1282
+#: wproto/view/widgets/blog_posts.tpl:78
+msgid "Keep reading"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:164
+#: library/tgm-plugin-activation/example.php:86
+#: wproto/controller/base-controller.php:303
+msgid "Install Required Plugins"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:165
+#: library/tgm-plugin-activation/example.php:87
+#: wproto/controller/base-controller.php:304
+msgid "Install Plugins"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#: library/tgm-plugin-activation/example.php:88
+#: wproto/controller/base-controller.php:305
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:168
+#: library/tgm-plugin-activation/example.php:90
+#: wproto/controller/base-controller.php:307
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:169
+#: library/tgm-plugin-activation/example.php:91
+#: wproto/controller/base-controller.php:308
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:170
+#: library/tgm-plugin-activation/example.php:92
+#: wproto/controller/base-controller.php:309
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:171
+#: library/tgm-plugin-activation/example.php:93
+#: wproto/controller/base-controller.php:310
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:172
+#: library/tgm-plugin-activation/example.php:94
+#: wproto/controller/base-controller.php:311
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:173
+#: library/tgm-plugin-activation/example.php:95
+#: wproto/controller/base-controller.php:312
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:174
+#: library/tgm-plugin-activation/example.php:96
+#: wproto/controller/base-controller.php:313
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:175
+#: library/tgm-plugin-activation/example.php:97
+#: wproto/controller/base-controller.php:314
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:176
+#: library/tgm-plugin-activation/example.php:98
+#: wproto/controller/base-controller.php:315
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:177
+#: library/tgm-plugin-activation/example.php:99
+#: wproto/controller/base-controller.php:316
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:178
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:490
+#: library/tgm-plugin-activation/example.php:100
+#: wproto/controller/base-controller.php:317
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:179
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1846
+#: library/tgm-plugin-activation/example.php:101
+#: wproto/controller/base-controller.php:318
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:517
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1299
+#: wproto/controller/video-controller.php:261
+msgid "Type"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+#: woocommerce/myaccount/my-orders.php:34 wproto/widget/wproto_catalog.php:90
+#: wproto/view/admin_filters/posts_filter.tpl:14
+msgid "Status"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/tgm-plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/tgm-plugin-activation/example.php:89
+#: wproto/controller/base-controller.php:306
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: library/tgm-plugin-activation/example.php:102
+#: wproto/controller/base-controller.php:319
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: page-coming-soon.php:41
+msgid "Welcome"
+msgstr ""
+
+#: page-coming-soon.php:43
+msgid "site will be alive in"
+msgstr ""
+
+#: page-coming-soon.php:48
+msgid "days"
+msgstr ""
+
+#: page-coming-soon.php:52
+msgid "hours"
+msgstr ""
+
+#: page-coming-soon.php:56
+msgid "minutes"
+msgstr ""
+
+#: page-coming-soon.php:60
+msgid "seconds"
+msgstr ""
+
+#: page-coming-soon.php:87
+msgid "Notify me when it's ready"
+msgstr ""
+
+#: page-coming-soon.php:95 sections/parallax.php:59
+#: sections/subscribe_form.php:39
+msgid "Your email"
+msgstr ""
+
+#: page-coming-soon.php:95 sections/parallax.php:61
+#: sections/subscribe_form.php:41
+msgid "Subscribe"
+msgstr ""
+
+#: page-maintenance.php:38
+msgid "We are under maintenance"
+msgstr ""
+
+#: page-tpl-contacts.php:60
+msgid "Send us a message"
+msgstr ""
+
+#: page-tpl-contacts.php:68
+msgid "Please type your name"
+msgstr ""
+
+#: page-tpl-contacts.php:77
+msgid "Please type valid email address"
+msgstr ""
+
+#: page-tpl-contacts.php:82
+msgid "Subject"
+msgstr ""
+
+#: page-tpl-contacts.php:87
+msgid "Your message"
+msgstr ""
+
+#: page-tpl-contacts.php:90
+msgid "Please type your message"
+msgstr ""
+
+#: page-tpl-contacts.php:101
+msgid "Send message"
+msgstr ""
+
+#: page-tpl-contacts.php:120
+msgid "Contact details"
+msgstr ""
+
+#: page-tpl-contacts.php:125
+msgid "Office address"
+msgstr ""
+
+#: page-tpl-contacts.php:129 sections/contact.php:33
+#: wproto/helper/admin_menu_walker.php:183
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:66
+#: wproto/view/layout_editor/part_contact.tpl:38
+msgid "Phone"
+msgstr ""
+
+#: page-tpl-contacts.php:133
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:74
+msgid "Fax"
+msgstr ""
+
+#: page-tpl-contacts.php:141
+msgid "We are social"
+msgstr ""
+
+#: part-hexagon-filters.php:33
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:128
+#: wproto/view/layout_editor/part_benefits.tpl:53
+#: wproto/view/layout_editor/part_catalog.tpl:27
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:27
+#: wproto/view/layout_editor/part_posts.tpl:27
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:27
+#: wproto/view/layout_editor/part_posts_video.tpl:27
+#: wproto/view/layout_editor/part_testimonials.tpl:27
+msgid "All"
+msgstr ""
+
+#: part-home-portfolio.php:42
+msgid "Load more works"
+msgstr ""
+
+#: part-oauth.php:12 woocommerce/checkout/form-login.php:32
+#: woocommerce/myaccount/form-login.php:45
+msgid "Sign in with Google"
+msgstr ""
+
+#: part-oauth.php:15 woocommerce/checkout/form-login.php:35
+#: woocommerce/myaccount/form-login.php:48
+msgid "Sign in with Facebook"
+msgstr ""
+
+#: search.php:49 wproto/helper/front.php:842
+msgid "Page"
+msgstr ""
+
+#: search.php:49 wproto/controller/admin-controller.php:108
+msgid "of"
+msgstr ""
+
+#: search.php:49
+msgid "results"
+msgstr ""
+
+#: search.php:64
+msgid "Nothing was found. Try another search query."
+msgstr ""
+
+#: sections/catalog.php:93 sections/catalog.php:102 sections/product.php:116
+#: sections/product.php:203 sections/product.php:319
+#: woocommerce/archive-product.php:124 woocommerce/single-product/price.php:27
+#: wproto/helper/front.php:1116
+#: wproto/widget/woocommerce/woo-recent-reviews.php:54
+msgid "reviews"
+msgstr ""
+
+#: sections/catalog.php:115 sections/catalog.php:116 sections/product.php:128
+#: sections/product.php:129 single-wproto_catalog.php:117
+#: wproto/helper/front.php:1127 wproto/helper/front.php:1160
+msgid "Buy"
+msgstr ""
+
+#: sections/contact.php:29
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:58
+#: wproto/view/layout_editor/part_contact.tpl:30
+#: wproto/view/widgets/google_map.tpl:22
+msgid "Address"
+msgstr ""
+
+#: sections/contact.php:37 wproto/view/layout_editor/part_contact.tpl:46
+#: wproto/view/shortcodes/contact_form.tpl:18
+#: wproto/view/widgets/contact_form.tpl:32
+msgid "E-mail"
+msgstr ""
+
+#: sections/contact.php:41
+msgid "We are open"
+msgstr ""
+
+#: sections/parallax.php:55 sections/subscribe_form.php:35
+#: wproto/view/shortcodes/contact_form.tpl:15
+#: wproto/view/widgets/contact_form.tpl:29
+msgid "Your name"
+msgstr ""
+
+#: sections/parallax.php:57 sections/subscribe_form.php:37
+msgid "Your phone number (optional)"
+msgstr ""
+
+#: sections/portfolio.php:44
+msgid "All works"
+msgstr ""
+
+#: sections/product.php:170
+msgid "Best ratings"
+msgstr ""
+
+#: sections/product.php:227
+msgid "Reviews on our blog"
+msgstr ""
+
+#: sections/product.php:291
+msgid "Best Sellers"
+msgstr ""
+
+#: single-wproto_catalog.php:54 woocommerce/archive-product.php:104
+#: woocommerce/single-product/product-image.php:20
+msgid "Sale"
+msgstr ""
+
+#: single-wproto_catalog.php:57
+msgid "Best<br/>Price"
+msgstr ""
+
+#: single-wproto_catalog.php:152 single-wproto_video.php:76 single.php:75
+#: wproto/controller/catalog-controller.php:212
+#: wproto/controller/post-controller.php:153
+#: wproto/controller/video-controller.php:268
+msgid "Tags"
+msgstr ""
+
+#: single-wproto_catalog.php:162 single-wproto_photoalbums.php:96
+#: single-wproto_portfolio.php:96 single-wproto_video.php:86 single.php:85
+#: wproto/controller/benefits-controller.php:101
+#: wproto/controller/catalog-controller.php:211
+#: wproto/controller/partners-controller.php:29
+#: wproto/controller/photoalbum-controller.php:160
+#: wproto/controller/portfolio-controller.php:181
+#: wproto/controller/post-controller.php:154
+#: wproto/controller/team-controller.php:98
+#: wproto/controller/testimonials-controller.php:36
+#: wproto/controller/video-controller.php:267
+#: wproto/widget/wproto_categories.php:54
+msgid "Categories"
+msgstr ""
+
+#: single-wproto_catalog.php:194 wproto/controller/catalog-controller.php:66
+msgid "Overview"
+msgstr ""
+
+#: single-wproto_catalog.php:201
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/archive-product.php:106
+#: woocommerce/single-product/product-image.php:22
+msgid "Best<br />Price"
+msgstr ""
+
+#: woocommerce/archive-product.php:143
+#: woocommerce/single-product/add-to-cart/simple.php:44
+#: woocommerce/single-product/add-to-cart/variable.php:83
+#: wproto/helper/front.php:1126
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/archive-product.php:145 wproto/view/widgets/catalog.tpl:81
+msgid "Buy it"
+msgstr ""
+
+#: woocommerce/archive-product.php:164
+msgid "No products were found"
+msgstr ""
+
+#: woocommerce/archive-product.php:166
+msgid "We're sorry, but this category does not have any product yet"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:13 wproto/view/front/cart.tpl:47
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:17
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:16
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:18
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid ""
+"No shipping methods were found; please recalculate your shipping or continue "
+"to checkout and enter your full address to see if there is shipping "
+"available to your location."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:69 woocommerce/cart/cart-shipping.php:77
+#, php-format
+msgid "Sorry, shipping is unavailable %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:69 woocommerce/cart/cart-shipping.php:77
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:93
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:21
+#: woocommerce/checkout/review-order.php:25
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:27 woocommerce/cart/cart-totals.php:67
+#: woocommerce/checkout/review-order.php:31
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:75
+#: woocommerce/checkout/review-order.php:79
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:87
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:27 woocommerce/checkout/form-pay.php:19
+#: woocommerce/checkout/review-order.php:18
+#: woocommerce/order/order-details.php:19
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28 wproto/controller/catalog-controller.php:207
+#: wproto/view/metaboxes/catalog.tpl:4
+#: wproto/view/metaboxes/pricing_table_editor.tpl:24
+#: wproto/view/metaboxes/pricing_table_editor.tpl:109
+#: wproto/view/shortcodes/pricing_tables.tpl:30
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/checkout/review-order.php:19
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/order/order-details.php:20
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:46
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:72
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:96
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/cart/cart.php:123
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:123 woocommerce/checkout/form-coupon.php:24
+msgid "Apply"
+msgstr ""
+
+#: woocommerce/cart/cart.php:128
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:129 woocommerce/cart/mini-cart.php:66
+#: wproto/view/front/cart.tpl:41
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:55
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:61
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:65 wproto/view/front/cart.tpl:40
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:45
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:15
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:19
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:17
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:19
+#: woocommerce/myaccount/form-login.php:21
+#: woocommerce/myaccount/form-login.php:40
+msgid "Login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:24
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:20
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:88
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:30
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details.php:131
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:34
+msgid "Ship to a different adress?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:60
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:150
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:152
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:163
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:163
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:170
+msgid "Place order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:179
+msgid "I have read and accept the"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:179
+msgid "terms &amp; conditions"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+msgid "Houston, we have a problem"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:20
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:26
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30 woocommerce/myaccount/my-orders.php:71
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:32
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38 woocommerce/checkout/thankyou.php:69
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:29
+msgid "Sort by"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:33
+#: wproto/controller/customizer-controller.php:340 wproto/helper/front.php:345
+#: wproto/view/layout_editor/metabox_appearance.tpl:96
+#: wproto/view/metaboxes/benefits_style.tpl:8
+msgid "Default"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:34
+msgid "Popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:35 woocommerce/single-product-reviews.php:66
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:36
+msgid "Newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:37
+msgid "Price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:38
+msgid "Price: high to low"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:24 wproto/helper/front.php:881
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:25 wproto/helper/front.php:882
+msgid "Next"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:40
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:48
+msgid "Add Payment Method"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:20
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:24
+#: woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:29
+#: woocommerce/myaccount/form-lost-password.php:46
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:20
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:24
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:28
+#: wproto/view/shortcodes/contact_form.tpl:19
+#: wproto/view/widgets/contact_form.tpl:33
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:32
+msgid "Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:36
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details.php:116
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:38
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:28
+#: woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:42
+msgid "or login with your social account"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:46
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:18
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:27
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:33
+#: wproto/controller/benefits-controller.php:103
+#: wproto/controller/catalog-controller.php:213
+#: wproto/controller/partners-controller.php:31
+#: wproto/controller/photoalbum-controller.php:161
+#: wproto/controller/portfolio-controller.php:182
+#: wproto/controller/post-controller.php:156
+#: wproto/controller/post-controller.php:325
+#: wproto/controller/team-controller.php:100
+#: wproto/controller/testimonials-controller.php:38
+#: wproto/controller/video-controller.php:269
+#: wproto/widget/wproto_blog_posts.php:138
+#: wproto/widget/wproto_catalog.php:151
+#: wproto/widget/wproto_logos_carousel.php:88
+#: wproto/widget/wproto_portfolio.php:108 wproto/widget/wproto_team.php:112
+#: wproto/widget/wproto_testimonials.php:98
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:46
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:45
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:37
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:45
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:45
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:45
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:37
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:62
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:78
+#: wproto/helper/admin_menu_walker.php:202
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:84
+#: wproto/view/metaboxes/post_likes.tpl:10
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:12
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:17
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:23
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/order-details.php:15
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:65
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:91
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details.php:98
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:103
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:120
+#: woocommerce/order/order-details.php:135
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:41
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:59
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:79
+msgid "Final price"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:21
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:28
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:29
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:36
+msgid "Dimensions"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:94
+#: wproto/view/dialog/icon_picker.tpl:57
+msgid "Error"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:95
+#: wproto/helper/admin_menu_walker.php:202
+#: wproto/view/custom_fields/category_image_add.tpl:10
+#: wproto/view/custom_fields/category_image_edit.tpl:22
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:114
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:126
+#: wproto/view/layout_editor/part_parallax.tpl:14
+#: wproto/view/settings/settings.tpl:115 wproto/view/settings/settings.tpl:120
+#: wproto/view/settings/settings.tpl:136 wproto/view/settings/settings.tpl:140
+#: wproto/view/settings/settings.tpl:144 wproto/view/settings/settings.tpl:148
+#: wproto/view/settings/settings.tpl:869 wproto/view/settings/settings.tpl:877
+#: wproto/view/settings/settings.tpl:885 wproto/view/settings/settings.tpl:893
+#: wproto/view/settings/settings.tpl:1094
+#: wproto/view/settings/settings.tpl:1102
+#: wproto/view/settings/settings.tpl:1110
+#: wproto/view/settings/settings.tpl:1118
+msgid "Remove"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:96
+msgid "Rename"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:97
+msgid "Delete"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:98
+#: wproto/helper/admin_menu_walker.php:154
+#: wproto/view/metaboxes/benefits_style.tpl:39
+msgid "Change"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:99
+#: wproto/controller/post-controller.php:148
+msgid "Sticky"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:100
+#: wproto/controller/admin-controller.php:114
+#: wproto/view/custom_fields/category_image_add.tpl:9
+#: wproto/view/custom_fields/category_image_edit.tpl:21
+msgid "Select"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:101
+msgid "Successfully"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:102
+msgid "Grabbing"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:103
+msgid "Cannot connect to Google"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:104
+msgid "Please, wait..."
+msgstr ""
+
+#: wproto/controller/admin-controller.php:105
+msgid "No images was found."
+msgstr ""
+
+#: wproto/controller/admin-controller.php:106
+msgid "All done"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:107
+msgid "Rebuilding"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:109
+msgid "Select an image"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:110
+#: wproto/view/metaboxes/attached_images.tpl:31
+msgid "No images selected"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:111
+msgid "One image selected"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:112
+msgid "images selected"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:113
+msgid "Attach Images"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:115
+msgid ""
+"An AJAX error occurred when performing a query. Please contact Customer "
+"Support if the problem persists."
+msgstr ""
+
+#: wproto/controller/admin-controller.php:116
+msgid ""
+"The script have received an invalid response from the server. Please contact "
+"Customer Support if the problem persists."
+msgstr ""
+
+#: wproto/controller/admin-controller.php:117
+msgid "Confirm action"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:118
+msgid "Are you sure you want to delete? This action cannot be undone."
+msgstr ""
+
+#: wproto/controller/admin-controller.php:119
+msgid "Icon Picker"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:120
+msgid "Remove Icon"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:121
+msgid "Select Icon"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:122
+msgid "Whole Width"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:123
+msgid "Golden Large"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:124
+msgid "Golden Small"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:125
+msgid "Bold"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:126
+msgid "Italic"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:127
+msgid "Stroke through"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:128
+msgid "Lowercase"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:129
+msgid "Uppercase"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:130
+msgid "Text indent"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:131
+msgid "Letter spacing"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:132
+msgid "Line height"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:133
+msgid "Alignments"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:134
+#: wproto/controller/admin-controller.php:140
+#: wproto/view/layout_editor/part_parallax.tpl:44
+#: wproto/view/settings/settings.tpl:915
+#: wproto/view/settings/settings.tpl:1140
+msgid "Left"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:135
+#: wproto/view/layout_editor/part_parallax.tpl:43
+#: wproto/view/layout_editor/part_parallax.tpl:59
+#: wproto/view/settings/settings.tpl:914 wproto/view/settings/settings.tpl:925
+#: wproto/view/settings/settings.tpl:1139
+#: wproto/view/settings/settings.tpl:1150
+msgid "Center"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:136
+#: wproto/controller/admin-controller.php:141
+#: wproto/view/layout_editor/part_parallax.tpl:45
+#: wproto/view/settings/settings.tpl:916
+#: wproto/view/settings/settings.tpl:1141
+msgid "Right"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:137
+msgid "Justify"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:138
+msgid "Padding/Margin"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:139
+#: wproto/view/layout_editor/part_parallax.tpl:60
+#: wproto/view/settings/settings.tpl:926
+#: wproto/view/settings/settings.tpl:1151
+msgid "Top"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:142
+msgid "Processing..."
+msgstr ""
+
+#: wproto/controller/admin-controller.php:143
+#: wproto/view/layout_editor/part_parallax.tpl:61
+#: wproto/view/settings/settings.tpl:927
+#: wproto/view/settings/settings.tpl:1152
+msgid "Bottom"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:144
+msgid "Insert slider"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:145
+msgid "Column formatting"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:146
+msgid "Remove column formatting"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:147
+msgid "Insert line before"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:148
+msgid "Add animation to image"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:149
+msgid "Insert line after"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:150
+msgid "Insert button"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:151
+msgid "Insert next page"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:152
+msgid "Insert tooltip"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:153
+msgid "Insert toggle"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:154
+msgid "Insert tabs"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:155
+msgid "Insert Progress Bar"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:156
+msgid "Insert pricing tables"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:157
+msgid "Highlight text"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:158
+msgid "Insert Benefits"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:159
+msgid "Insert Photo Albums"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:160
+msgid "Insert Tweets"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:161
+#: wproto/view/metaboxes/attached_images.tpl:23
+msgid "Add images"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:162
+msgid "Insert Testimonials"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:163
+msgid "Insert Video"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:164
+msgid "Insert Posts"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:165
+msgid "Insert Team"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:166
+msgid "Insert Catalog"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:167
+msgid "Insert Shorted Link"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:168
+msgid "Insert Audio"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:169
+msgid "Insert Google Map"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:170
+msgid "Insert Call to action"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:171
+msgid "Insert Portfolio"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:172
+msgid "Insert Clients, Partners etc..."
+msgstr ""
+
+#: wproto/controller/admin-controller.php:173
+msgid "Insert Pricing table"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:174
+msgid "Insert Contact form"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:175
+msgid "Insert Text box"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:176
+msgid "Insert Divider"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:179
+msgid "Edit Toggles content"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:180
+msgid "Edit Progress bars"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:181
+#: wproto/view/editor_buttons/wproto_insert_progress.tpl:33
+#: wproto/view/editor_buttons/wproto_insert_progress.tpl:51
+msgid "Value"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:182
+msgid "Feature name"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:183
+msgid "Package name"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:254
+msgid "Once Weekly"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:306
+#: wproto/controller/admin-controller.php:307
+msgid "Theme Options"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:314
+#: wproto/controller/admin-controller.php:315
+msgid "Settings"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:321
+#: wproto/controller/admin-controller.php:322
+msgid "Customize"
+msgstr ""
+
+#: wproto/controller/admin-controller.php:327
+#: wproto/controller/admin-controller.php:328
+#: wproto/controller/admin-sidebars-controller.php:37
+msgid "Widget Areas"
+msgstr ""
+
+#: wproto/controller/admin-sidebars-controller.php:24
+msgid "Sidebar name"
+msgstr ""
+
+#: wproto/controller/admin-sidebars-controller.php:25
+#: wproto/helper/admin_menu_walker.php:141
+#: wproto/view/metaboxes/attached_images_item.tpl:31
+msgid "Description"
+msgstr ""
+
+#: wproto/controller/admin-sidebars-controller.php:37
+msgid "Create an unlimited number of sidebars, and use them at your website."
+msgstr ""
+
+#: wproto/controller/admin-taxonomy-controller.php:133
+#: wproto/controller/catalog-controller.php:205
+#: wproto/controller/partners-controller.php:27
+#: wproto/controller/photoalbum-controller.php:155
+#: wproto/controller/portfolio-controller.php:177
+#: wproto/view/admin_filters/posts_filter.tpl:12
+#: wproto/view/admin_filters/slide_type_filter.tpl:3
+msgid "Image"
+msgstr ""
+
+#: wproto/controller/admin-taxonomy-controller.php:134
+#: wproto/controller/admin-taxonomy-controller.php:141
+#: wproto/controller/catalog-controller.php:210
+#: wproto/controller/photoalbum-controller.php:159
+#: wproto/controller/portfolio-controller.php:180
+#: wproto/controller/post-controller.php:149
+#: wproto/controller/video-controller.php:266
+msgid "Featured"
+msgstr ""
+
+#: wproto/controller/admin-taxonomy-controller.php:135
+#: wproto/controller/admin-taxonomy-controller.php:142
+msgid "New"
+msgstr ""
+
+#: wproto/controller/admin-taxonomy-controller.php:170
+#: wproto/controller/admin-taxonomy-controller.php:174
+#: wproto/controller/customizer-controller.php:153 wproto/helper/front.php:288
+#: wproto/view/custom_fields/category_featured_add.tpl:5
+#: wproto/view/custom_fields/category_featured_edit.tpl:8
+#: wproto/view/custom_fields/category_new_add.tpl:5
+#: wproto/view/custom_fields/category_new_edit.tpl:8
+#: wproto/view/layout_editor/metabox_appearance.tpl:18
+#: wproto/view/layout_editor/metabox_appearance.tpl:32
+#: wproto/view/layout_editor/metabox_appearance.tpl:47
+#: wproto/view/layout_editor/metabox_one_page_template.tpl:12
+#: wproto/view/layout_editor/metabox_one_page_template.tpl:25
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:63
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:107
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:43
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:58
+#: wproto/view/layout_editor/metabox_sidebar.tpl:59
+#: wproto/view/layout_editor/metabox_slider.tpl:23
+#: wproto/view/layout_editor/metabox_slider.tpl:63
+#: wproto/view/layout_editor/metabox_slider.tpl:92
+#: wproto/view/layout_editor/metabox_slider.tpl:105
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:86
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:99
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:144
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:157
+#: wproto/view/layout_editor/part_parallax.tpl:119
+#: wproto/view/layout_editor/part_parallax.tpl:152
+#: wproto/view/layout_editor/part_portfolio.tpl:82
+#: wproto/view/layout_editor/part_slider.tpl:36
+#: wproto/view/metaboxes/page_redirect.tpl:12
+#: wproto/view/metaboxes/post_featured.tpl:3
+#: wproto/view/settings/settings.tpl:343 wproto/view/settings/settings.tpl:356
+#: wproto/view/settings/settings.tpl:371 wproto/view/settings/settings.tpl:384
+#: wproto/view/settings/settings.tpl:424 wproto/view/settings/settings.tpl:437
+#: wproto/view/settings/settings.tpl:485 wproto/view/settings/settings.tpl:621
+#: wproto/view/settings/settings.tpl:666 wproto/view/settings/settings.tpl:735
+#: wproto/view/settings/settings.tpl:746 wproto/view/settings/settings.tpl:793
+#: wproto/view/settings/settings.tpl:940 wproto/view/settings/settings.tpl:953
+#: wproto/view/settings/settings.tpl:994
+#: wproto/view/settings/settings.tpl:1020
+#: wproto/view/settings/settings.tpl:1165
+#: wproto/view/settings/settings.tpl:1178
+#: wproto/view/settings/settings.tpl:1224
+#: wproto/view/settings/settings.tpl:1235
+#: wproto/view/settings/settings.tpl:1246
+#: wproto/view/settings/settings.tpl:1257
+msgid "Yes"
+msgstr ""
+
+#: wproto/controller/admin-taxonomy-controller.php:170
+#: wproto/controller/admin-taxonomy-controller.php:174
+#: wproto/controller/customizer-controller.php:152 wproto/helper/front.php:290
+#: wproto/view/custom_fields/category_featured_add.tpl:4
+#: wproto/view/custom_fields/category_featured_edit.tpl:7
+#: wproto/view/custom_fields/category_new_add.tpl:4
+#: wproto/view/custom_fields/category_new_edit.tpl:7
+#: wproto/view/layout_editor/metabox_appearance.tpl:19
+#: wproto/view/layout_editor/metabox_appearance.tpl:33
+#: wproto/view/layout_editor/metabox_appearance.tpl:48
+#: wproto/view/layout_editor/metabox_one_page_template.tpl:13
+#: wproto/view/layout_editor/metabox_one_page_template.tpl:26
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:64
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:108
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:44
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:59
+#: wproto/view/layout_editor/metabox_sidebar.tpl:60
+#: wproto/view/layout_editor/metabox_slider.tpl:24
+#: wproto/view/layout_editor/metabox_slider.tpl:64
+#: wproto/view/layout_editor/metabox_slider.tpl:93
+#: wproto/view/layout_editor/metabox_slider.tpl:106
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:87
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:100
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:145
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:158
+#: wproto/view/layout_editor/part_parallax.tpl:120
+#: wproto/view/layout_editor/part_parallax.tpl:153
+#: wproto/view/layout_editor/part_portfolio.tpl:83
+#: wproto/view/layout_editor/part_slider.tpl:37
+#: wproto/view/metaboxes/page_redirect.tpl:13
+#: wproto/view/metaboxes/post_featured.tpl:4
+#: wproto/view/settings/settings.tpl:344 wproto/view/settings/settings.tpl:357
+#: wproto/view/settings/settings.tpl:372 wproto/view/settings/settings.tpl:385
+#: wproto/view/settings/settings.tpl:425 wproto/view/settings/settings.tpl:438
+#: wproto/view/settings/settings.tpl:486 wproto/view/settings/settings.tpl:622
+#: wproto/view/settings/settings.tpl:667 wproto/view/settings/settings.tpl:736
+#: wproto/view/settings/settings.tpl:747 wproto/view/settings/settings.tpl:794
+#: wproto/view/settings/settings.tpl:941 wproto/view/settings/settings.tpl:954
+#: wproto/view/settings/settings.tpl:995
+#: wproto/view/settings/settings.tpl:1021
+#: wproto/view/settings/settings.tpl:1166
+#: wproto/view/settings/settings.tpl:1179
+#: wproto/view/settings/settings.tpl:1225
+#: wproto/view/settings/settings.tpl:1236
+#: wproto/view/settings/settings.tpl:1247
+#: wproto/view/settings/settings.tpl:1258
+msgid "No"
+msgstr ""
+
+#: wproto/controller/base-controller.php:62
+msgid "Header Menu"
+msgstr ""
+
+#: wproto/controller/base-controller.php:451
+#: wproto/controller/base-controller.php:477
+#: wproto/controller/base-controller.php:479
+#: wproto/controller/pricing_tables-controller.php:31
+msgid "Pricing Tables"
+msgstr ""
+
+#: wproto/controller/base-controller.php:478
+msgid "Pricing Table"
+msgstr ""
+
+#: wproto/controller/base-controller.php:480
+msgid "Add Pricing Table"
+msgstr ""
+
+#: wproto/controller/base-controller.php:481
+msgid "Add New Pricing Table"
+msgstr ""
+
+#: wproto/controller/base-controller.php:482
+msgid "All Pricing Tables"
+msgstr ""
+
+#: wproto/controller/base-controller.php:483
+msgid "Edit Pricing Table"
+msgstr ""
+
+#: wproto/controller/base-controller.php:484
+msgid "New Pricing Table"
+msgstr ""
+
+#: wproto/controller/base-controller.php:485
+msgid "View Pricing Table"
+msgstr ""
+
+#: wproto/controller/base-controller.php:486
+msgid "Search Pricing Tables"
+msgstr ""
+
+#: wproto/controller/base-controller.php:487
+msgid "No Pricing Tables Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:488
+msgid "No Pricing Tables Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:489
+msgid "Parent Pricing Table:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:495
+#: wproto/controller/base-controller.php:522
+#: wproto/controller/base-controller.php:524
+#: wproto/controller/partners-controller.php:81
+msgid "Partners / Clients"
+msgstr ""
+
+#: wproto/controller/base-controller.php:523
+msgid "Partner / Client"
+msgstr ""
+
+#: wproto/controller/base-controller.php:525
+msgid "Add Partner / Client"
+msgstr ""
+
+#: wproto/controller/base-controller.php:526
+msgid "Add New Partner / Client"
+msgstr ""
+
+#: wproto/controller/base-controller.php:527
+msgid "All Partners / Clients"
+msgstr ""
+
+#: wproto/controller/base-controller.php:528
+msgid "Edit Partner / Client"
+msgstr ""
+
+#: wproto/controller/base-controller.php:529
+msgid "New Partner / Client"
+msgstr ""
+
+#: wproto/controller/base-controller.php:530
+msgid "View Partner / Client"
+msgstr ""
+
+#: wproto/controller/base-controller.php:531
+msgid "Search Partners / Clients"
+msgstr ""
+
+#: wproto/controller/base-controller.php:532
+msgid "No Partners / Clients Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:533
+msgid "No Partners / Clients Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:534
+msgid "Parent Partner / Client:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:542
+#: wproto/controller/base-controller.php:568
+#: wproto/controller/base-controller.php:570
+#: wproto/controller/catalog-controller.php:37
+#: wproto/widget/wproto_catalog.php:59
+#: wproto/widget/wproto_featured_posts.php:76
+#: wproto/widget/wproto_popular_posts.php:78
+#: wproto/widget/wproto_random_posts.php:76
+#: wproto/widget/wproto_recent_posts.php:77
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:14
+#: wproto/view/layout_editor/section.tpl:12
+#: wproto/view/metaboxes/menu_archives.tpl:49
+#: wproto/view/metaboxes/menu_archives.tpl:50
+msgid "Catalog"
+msgstr ""
+
+#: wproto/controller/base-controller.php:569
+msgid "Catalog item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:571
+msgid "Add Catalog item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:572
+msgid "Add New Catalog item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:573
+msgid "All Catalog items"
+msgstr ""
+
+#: wproto/controller/base-controller.php:574
+msgid "Edit Catalog item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:575
+msgid "New Catalog item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:576
+msgid "View Catalog item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:577
+msgid "Search Catalog items"
+msgstr ""
+
+#: wproto/controller/base-controller.php:578
+msgid "No Catalog items Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:579
+msgid "No Catalog items Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:580
+msgid "Parent Catalog item:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:590
+#: wproto/controller/base-controller.php:616
+#: wproto/controller/base-controller.php:618
+#: wproto/controller/portfolio-controller.php:47
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:17
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:12
+#: wproto/view/layout_editor/section.tpl:16
+#: wproto/view/metaboxes/menu_archives.tpl:56
+#: wproto/view/metaboxes/menu_archives.tpl:57
+msgid "Portfolio"
+msgstr ""
+
+#: wproto/controller/base-controller.php:617
+msgid "Portfolio item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:619
+msgid "Add Portfolio item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:620
+msgid "Add New Portfolio item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:621
+msgid "All Portfolio items"
+msgstr ""
+
+#: wproto/controller/base-controller.php:622
+msgid "Edit Portfolio item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:623
+msgid "New Portfolio item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:624
+msgid "View Portfolio item"
+msgstr ""
+
+#: wproto/controller/base-controller.php:625
+msgid "Search Portfolio items"
+msgstr ""
+
+#: wproto/controller/base-controller.php:626
+msgid "No Portfolio items Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:627
+msgid "No Portfolio items Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:628
+msgid "Parent Portfolio item:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:636
+#: wproto/controller/base-controller.php:663
+msgid "Team"
+msgstr ""
+
+#: wproto/controller/base-controller.php:664
+msgid "Member"
+msgstr ""
+
+#: wproto/controller/base-controller.php:665
+msgid "Team members"
+msgstr ""
+
+#: wproto/controller/base-controller.php:666
+msgid "Add team member"
+msgstr ""
+
+#: wproto/controller/base-controller.php:667
+msgid "Add New team member"
+msgstr ""
+
+#: wproto/controller/base-controller.php:668
+msgid "All team members"
+msgstr ""
+
+#: wproto/controller/base-controller.php:669
+msgid "Edit team member"
+msgstr ""
+
+#: wproto/controller/base-controller.php:670
+msgid "New team member"
+msgstr ""
+
+#: wproto/controller/base-controller.php:671
+msgid "View team member"
+msgstr ""
+
+#: wproto/controller/base-controller.php:672
+msgid "Search team members"
+msgstr ""
+
+#: wproto/controller/base-controller.php:673
+msgid "No team members Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:674
+msgid "No team members Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:675
+msgid "Parent team member:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:681
+#: wproto/controller/base-controller.php:708
+#: wproto/controller/base-controller.php:710
+#: wproto/controller/benefits-controller.php:168
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:12
+#: wproto/view/layout_editor/section.tpl:8
+msgid "Benefits"
+msgstr ""
+
+#: wproto/controller/base-controller.php:709
+msgid "Benefit"
+msgstr ""
+
+#: wproto/controller/base-controller.php:711
+msgid "Add Benefit"
+msgstr ""
+
+#: wproto/controller/base-controller.php:712
+msgid "Add New Benefit"
+msgstr ""
+
+#: wproto/controller/base-controller.php:713
+msgid "All Benefits"
+msgstr ""
+
+#: wproto/controller/base-controller.php:714
+msgid "Edit Benefit"
+msgstr ""
+
+#: wproto/controller/base-controller.php:715
+msgid "New Benefit"
+msgstr ""
+
+#: wproto/controller/base-controller.php:716
+msgid "View Benefit"
+msgstr ""
+
+#: wproto/controller/base-controller.php:717
+msgid "Search Benefits"
+msgstr ""
+
+#: wproto/controller/base-controller.php:718
+msgid "No Benefits Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:719
+msgid "No Benefits Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:720
+msgid "Parent Benefit:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:726
+#: wproto/controller/base-controller.php:753
+#: wproto/controller/base-controller.php:755
+#: wproto/controller/testimonials-controller.php:91
+#: wproto/widget/wproto_testimonials.php:50
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:21
+#: wproto/view/layout_editor/section.tpl:28
+msgid "Testimonials"
+msgstr ""
+
+#: wproto/controller/base-controller.php:754
+msgid "Testimonial"
+msgstr ""
+
+#: wproto/controller/base-controller.php:756
+msgid "Add Testimonial"
+msgstr ""
+
+#: wproto/controller/base-controller.php:757
+msgid "Add New Testimonial"
+msgstr ""
+
+#: wproto/controller/base-controller.php:758
+msgid "All Testimonials"
+msgstr ""
+
+#: wproto/controller/base-controller.php:759
+msgid "Edit Testimonial"
+msgstr ""
+
+#: wproto/controller/base-controller.php:760
+msgid "New Testimonial"
+msgstr ""
+
+#: wproto/controller/base-controller.php:761
+msgid "View Testimonial"
+msgstr ""
+
+#: wproto/controller/base-controller.php:762
+msgid "Search Testimonials"
+msgstr ""
+
+#: wproto/controller/base-controller.php:763
+msgid "No Testimonials Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:764
+msgid "No Testimonials Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:765
+msgid "Parent Testimonial:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:773
+#: wproto/controller/base-controller.php:799
+#: wproto/controller/base-controller.php:801
+#: wproto/widget/wproto_featured_posts.php:74
+#: wproto/widget/wproto_popular_posts.php:76
+#: wproto/widget/wproto_random_posts.php:74
+#: wproto/widget/wproto_recent_posts.php:75
+#: wproto/view/metaboxes/menu_archives.tpl:35
+#: wproto/view/metaboxes/menu_archives.tpl:36
+msgid "Videos"
+msgstr ""
+
+#: wproto/controller/base-controller.php:800
+#: wproto/controller/video-controller.php:37
+#: wproto/view/admin_filters/posts_filter.tpl:15
+#: wproto/view/admin_filters/slide_type_filter.tpl:4
+msgid "Video"
+msgstr ""
+
+#: wproto/controller/base-controller.php:802
+msgid "Add Video"
+msgstr ""
+
+#: wproto/controller/base-controller.php:803
+msgid "Add New Video"
+msgstr ""
+
+#: wproto/controller/base-controller.php:804
+msgid "All Videos"
+msgstr ""
+
+#: wproto/controller/base-controller.php:805
+msgid "Edit Video"
+msgstr ""
+
+#: wproto/controller/base-controller.php:806
+msgid "New Video"
+msgstr ""
+
+#: wproto/controller/base-controller.php:807
+msgid "View Video"
+msgstr ""
+
+#: wproto/controller/base-controller.php:808
+msgid "Search Videos"
+msgstr ""
+
+#: wproto/controller/base-controller.php:809
+msgid "No Videos Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:810
+msgid "No Videos Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:811
+msgid "Parent Video:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:821
+#: wproto/controller/base-controller.php:847
+#: wproto/controller/base-controller.php:849
+#: wproto/view/metaboxes/menu_archives.tpl:42
+#: wproto/view/metaboxes/menu_archives.tpl:43
+msgid "Photo albums"
+msgstr ""
+
+#: wproto/controller/base-controller.php:848
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:13
+msgid "Photo album"
+msgstr ""
+
+#: wproto/controller/base-controller.php:850
+msgid "Add Photo album"
+msgstr ""
+
+#: wproto/controller/base-controller.php:851
+msgid "Add New Photo album"
+msgstr ""
+
+#: wproto/controller/base-controller.php:852
+msgid "All Photo albums"
+msgstr ""
+
+#: wproto/controller/base-controller.php:853
+msgid "Edit Photo album"
+msgstr ""
+
+#: wproto/controller/base-controller.php:854
+msgid "New Photo album"
+msgstr ""
+
+#: wproto/controller/base-controller.php:855
+msgid "View Photo album"
+msgstr ""
+
+#: wproto/controller/base-controller.php:856
+msgid "Search Photo albums"
+msgstr ""
+
+#: wproto/controller/base-controller.php:857
+msgid "No Photo albums Found"
+msgstr ""
+
+#: wproto/controller/base-controller.php:858
+msgid "No Photo albums Found in Trash"
+msgstr ""
+
+#: wproto/controller/base-controller.php:859
+msgid "Parent Photo album:"
+msgstr ""
+
+#: wproto/controller/base-controller.php:882
+msgctxt "taxonomy general name"
+msgid "Widget Areas"
+msgstr ""
+
+#: wproto/controller/base-controller.php:883
+msgctxt "taxonomy singular name"
+msgid "Widget Area"
+msgstr ""
+
+#: wproto/controller/base-controller.php:884
+msgid "Search Areas"
+msgstr ""
+
+#: wproto/controller/base-controller.php:885
+msgid "All Widget Areas"
+msgstr ""
+
+#: wproto/controller/base-controller.php:886
+msgid "Edit Widget Area"
+msgstr ""
+
+#: wproto/controller/base-controller.php:887
+msgid "Update Widget Area"
+msgstr ""
+
+#: wproto/controller/base-controller.php:888
+msgid "Add New Widget Area"
+msgstr ""
+
+#: wproto/controller/base-controller.php:889
+msgid "New Widget Area"
+msgstr ""
+
+#: wproto/controller/base-controller.php:890
+msgid "Widget Area"
+msgstr ""
+
+#: wproto/controller/base-controller.php:905
+msgctxt "taxonomy general name"
+msgid "Partners Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:906
+msgctxt "taxonomy singular name"
+msgid "Partners Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:907
+#: wproto/controller/base-controller.php:930
+#: wproto/controller/base-controller.php:976
+#: wproto/controller/base-controller.php:999
+#: wproto/controller/base-controller.php:1022
+#: wproto/controller/base-controller.php:1045
+#: wproto/controller/base-controller.php:1068
+#: wproto/controller/base-controller.php:1114
+msgid "Search in categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:908
+#: wproto/controller/base-controller.php:931
+#: wproto/controller/base-controller.php:977
+#: wproto/controller/base-controller.php:1000
+#: wproto/controller/base-controller.php:1023
+#: wproto/controller/base-controller.php:1046
+#: wproto/controller/base-controller.php:1069
+#: wproto/controller/base-controller.php:1115
+msgid "All Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:909
+#: wproto/controller/base-controller.php:932
+#: wproto/controller/base-controller.php:978
+#: wproto/controller/base-controller.php:1001
+#: wproto/controller/base-controller.php:1024
+#: wproto/controller/base-controller.php:1047
+#: wproto/controller/base-controller.php:1070
+#: wproto/controller/base-controller.php:1116
+msgid "Edit Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:910
+#: wproto/controller/base-controller.php:933
+#: wproto/controller/base-controller.php:979
+#: wproto/controller/base-controller.php:1002
+#: wproto/controller/base-controller.php:1025
+#: wproto/controller/base-controller.php:1048
+#: wproto/controller/base-controller.php:1071
+#: wproto/controller/base-controller.php:1117
+msgid "Update Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:911
+#: wproto/controller/base-controller.php:934
+#: wproto/controller/base-controller.php:980
+#: wproto/controller/base-controller.php:1003
+#: wproto/controller/base-controller.php:1026
+#: wproto/controller/base-controller.php:1049
+#: wproto/controller/base-controller.php:1072
+#: wproto/controller/base-controller.php:1118
+msgid "Add New Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:912
+#: wproto/controller/base-controller.php:935
+#: wproto/controller/base-controller.php:981
+#: wproto/controller/base-controller.php:1004
+#: wproto/controller/base-controller.php:1027
+#: wproto/controller/base-controller.php:1050
+#: wproto/controller/base-controller.php:1073
+#: wproto/controller/base-controller.php:1119
+msgid "New Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:913
+msgid "Partners Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:928
+msgctxt "taxonomy general name"
+msgid "Catalog Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:929
+msgctxt "taxonomy singular name"
+msgid "Catalog Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:936
+msgid "Catalog Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:951
+msgctxt "taxonomy general name"
+msgid "Catalog Tags"
+msgstr ""
+
+#: wproto/controller/base-controller.php:952
+msgctxt "taxonomy singular name"
+msgid "Catalog Tag"
+msgstr ""
+
+#: wproto/controller/base-controller.php:953
+#: wproto/controller/base-controller.php:1091
+msgid "Search in tags"
+msgstr ""
+
+#: wproto/controller/base-controller.php:954
+#: wproto/controller/base-controller.php:1092
+msgid "All tags"
+msgstr ""
+
+#: wproto/controller/base-controller.php:955
+#: wproto/controller/base-controller.php:1093
+msgid "Edit tag"
+msgstr ""
+
+#: wproto/controller/base-controller.php:956
+#: wproto/controller/base-controller.php:1094
+msgid "Update tag"
+msgstr ""
+
+#: wproto/controller/base-controller.php:957
+#: wproto/controller/base-controller.php:1095
+msgid "Add New tag"
+msgstr ""
+
+#: wproto/controller/base-controller.php:958
+#: wproto/controller/base-controller.php:1096
+msgid "New tag"
+msgstr ""
+
+#: wproto/controller/base-controller.php:959
+msgid "Catalog Tags"
+msgstr ""
+
+#: wproto/controller/base-controller.php:974
+msgctxt "taxonomy general name"
+msgid "Benefits Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:975
+msgctxt "taxonomy singular name"
+msgid "Benefits Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:982
+msgid "Benefits Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:997
+msgctxt "taxonomy general name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:998
+msgctxt "taxonomy singular name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1005
+msgid "Portfolio Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1020
+msgctxt "taxonomy general name"
+msgid "Team Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1021
+msgctxt "taxonomy singular name"
+msgid "Team Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1028
+msgid "Team Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1043
+msgctxt "taxonomy general name"
+msgid "Testimonials Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1044
+msgctxt "taxonomy singular name"
+msgid "Testimonials Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1051
+msgid "Testimonials Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1066
+msgctxt "taxonomy general name"
+msgid "Video Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1067
+msgctxt "taxonomy singular name"
+msgid "Video Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1074
+msgid "Video Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1089
+msgctxt "taxonomy general name"
+msgid "Video Tags"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1090
+msgctxt "taxonomy singular name"
+msgid "Video Tag"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1097
+msgid "Video Tags"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1112
+msgctxt "taxonomy general name"
+msgid "Photoalbum Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1113
+msgctxt "taxonomy singular name"
+msgid "Photoalbum Category"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1120
+msgid "Photoalbum Categories"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1140
+msgid "Left sidebar"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1151
+msgid "Right sidebar"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1162
+msgid "Footer Widget Area"
+msgstr ""
+
+#: wproto/controller/base-controller.php:1173
+msgid "Shop Widget Area"
+msgstr ""
+
+#: wproto/controller/benefits-controller.php:38
+msgid "Style settings"
+msgstr ""
+
+#: wproto/controller/benefits-controller.php:98
+msgid "Icon / Image"
+msgstr ""
+
+#: wproto/controller/benefits-controller.php:99
+#: wproto/controller/catalog-controller.php:206
+#: wproto/controller/partners-controller.php:28
+#: wproto/controller/photoalbum-controller.php:156
+#: wproto/controller/portfolio-controller.php:178
+#: wproto/controller/post-controller.php:322
+#: wproto/controller/video-controller.php:260
+#: wproto/widget/wproto_blog_posts.php:140
+#: wproto/widget/wproto_catalog.php:153
+#: wproto/widget/wproto_logos_carousel.php:90
+#: wproto/widget/wproto_portfolio.php:110 wproto/widget/wproto_team.php:114
+#: wproto/widget/wproto_testimonials.php:100
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:48
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:3
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:47
+#: wproto/view/editor_buttons/wproto_insert_contact_form.tpl:11
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:39
+#: wproto/view/editor_buttons/wproto_insert_photogallery.tpl:6
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:47
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:47
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:47
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:39
+#: wproto/view/editor_buttons/wproto_insert_toggle_tabs.tpl:8
+#: wproto/view/editor_buttons/wproto_insert_tooltip_button.tpl:2
+#: wproto/view/metaboxes/attached_images_item.tpl:19
+msgid "Title"
+msgstr ""
+
+#: wproto/controller/benefits-controller.php:100
+#: wproto/controller/team-controller.php:97
+#: wproto/controller/testimonials-controller.php:35
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:11
+#: wproto/view/editor_buttons/wproto_insert_contact_form.tpl:15
+#: wproto/view/editor_buttons/wproto_insert_highlight.tpl:6
+msgid "Text"
+msgstr ""
+
+#: wproto/controller/benefits-controller.php:168
+msgid ""
+"Benefits - it's a not public post type. Use this feature to collect your "
+"advantages records and show them at website as a widget or as a part of page "
+"content."
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:263
+msgid "one"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:264
+msgid "two"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:265
+msgid "three"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:266
+msgid "four"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:267
+msgid "five"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:268
+msgid "six"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:269
+msgid "seven"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:270
+msgid "eight"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:271
+msgid "nine"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:272
+msgid "ten"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:273
+msgid "eleven"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:274
+msgid "twelve"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:275
+msgid "thirteen"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:276
+msgid "fourteen"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:277
+msgid "fifteen"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:278
+msgid "sixteen"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:279
+msgid "seventeen"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:280
+msgid "eighteen"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:281
+msgid "nineteen"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:282
+msgid "twenty"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:283
+msgid "thirty"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:284
+msgid "forty"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:285
+msgid "fifty"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:286
+msgid "sixty"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:287
+msgid "seventy"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:288
+msgid "eighty"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:289
+msgid "ninety"
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:346
+msgid "Invalid captcha value."
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:349
+msgid "Captcha time expired."
+msgstr ""
+
+#: wproto/controller/captcha-controller.php:352
+msgid "Please enter captcha value."
+msgstr ""
+
+#: wproto/controller/catalog-controller.php:37
+msgid ""
+"Use these posts to store your products at website. Plase this as part of "
+"website, part of the content or as a widget."
+msgstr ""
+
+#: wproto/controller/catalog-controller.php:48
+#: wproto/controller/photoalbum-controller.php:49
+#: wproto/controller/portfolio-controller.php:58
+#: wproto/controller/post-controller.php:50
+msgid "Featured post"
+msgstr ""
+
+#: wproto/controller/catalog-controller.php:57
+msgid "Catalog Item Rating"
+msgstr ""
+
+#: wproto/controller/catalog-controller.php:75
+msgid "Catalog item options"
+msgstr ""
+
+#: wproto/controller/catalog-controller.php:84
+#: wproto/controller/photoalbum-controller.php:67
+msgid "Attached Images"
+msgstr ""
+
+#: wproto/controller/catalog-controller.php:208
+#: wproto/controller/comments-controller.php:25
+#: wproto/controller/photoalbum-controller.php:157
+#: wproto/controller/post-controller.php:142
+#: wproto/controller/video-controller.php:263
+#: wproto/widget/wproto_popular_posts.php:84
+#: wproto/view/metaboxes/post_likes.tpl:6
+#: wproto/view/settings/settings.tpl:406
+msgid "Likes"
+msgstr ""
+
+#: wproto/controller/catalog-controller.php:209
+#: wproto/controller/photoalbum-controller.php:158
+#: wproto/controller/portfolio-controller.php:179
+#: wproto/controller/post-controller.php:144
+#: wproto/controller/video-controller.php:265
+#: wproto/widget/wproto_popular_posts.php:85
+#: wproto/view/metaboxes/post_likes.tpl:10
+msgid "Views"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:33
+msgid "Mega menu style"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:42 wproto/helper/front.php:258
+msgid "Color Schemes"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:50
+msgid "Layout"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:58
+#: wproto/controller/customizer-controller.php:315 wproto/helper/front.php:327
+msgid "Header top menu"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:66 wproto/helper/front.php:341
+msgid "Header layouts"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:74 wproto/helper/front.php:368
+msgid "Fonts"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:97
+msgid "Mega Menu Style"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:100
+msgid "Wide (full width)"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:101
+msgid "Relative to parent"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:119
+msgid "Color scheme"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:122
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:18
+msgid "Blue"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:123
+msgid "Brown"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:124
+msgid "Dark Green"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:125
+msgid "Gray"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:126
+msgid "Light Green"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:127
+msgid "Orange"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:128
+msgid "Pink"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:129
+msgid "Purple"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:130
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:16
+msgid "Red"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:131
+msgid "Sky Blue"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:149
+msgid "Boxed Layout"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:194
+msgid "Custom background image"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:214
+msgid "Custom background position"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:238
+msgid "Custom background repeat"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:262
+msgid "Fixed background"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:265
+#: wproto/controller/customizer-controller.php:318 wproto/helper/front.php:333
+msgid "Off"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:266
+#: wproto/controller/customizer-controller.php:319 wproto/helper/front.php:331
+msgid "On"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:284 wproto/helper/front.php:305
+msgid "Pattern"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:287
+msgid "No pattern..."
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:288 wproto/helper/front.php:308
+msgid "Carbon fibre"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:289 wproto/helper/front.php:309
+msgid "Cubes"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:290 wproto/helper/front.php:310
+msgid "Escheresque"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:291 wproto/helper/front.php:311
+msgid "Fabric of squares"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:292 wproto/helper/front.php:312
+msgid "Gray wash wall"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:293 wproto/helper/front.php:313
+msgid "Random grey variations"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:294 wproto/helper/front.php:314
+msgid "Wood"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:295 wproto/helper/front.php:315
+msgid "Material"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:296 wproto/helper/front.php:316
+msgid "Tileable wood"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:297 wproto/helper/front.php:317
+msgid "Tweed"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:337
+msgid "Header layout"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:341 wproto/helper/front.php:348
+msgid "Default centered"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:342 wproto/helper/front.php:351
+msgid "Big background"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:343 wproto/helper/front.php:354
+msgid "Classic"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:344 wproto/helper/front.php:357
+msgid "Classic centered"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:345 wproto/helper/front.php:360
+msgid "Full width"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:365
+msgid "Primary Font"
+msgstr ""
+
+#: wproto/controller/customizer-controller.php:384
+msgid "Secondary Font"
+msgstr ""
+
+#: wproto/controller/front-controller.php:201
+msgid "This request not allowed"
+msgstr ""
+
+#: wproto/controller/front-controller.php:583
+msgid "Please, enter captcha value"
+msgstr ""
+
+#: wproto/controller/front-controller.php:584
+msgid "Your message has been sent. Thank you!"
+msgstr ""
+
+#: wproto/controller/front-controller.php:585
+msgid ""
+"An AJAX error occurred when performing a query. Please contact support if "
+"the problem persists."
+msgstr ""
+
+#: wproto/controller/front-controller.php:586
+msgid ""
+"The script have received an invalid response from the server. Please contact "
+"support if the problem persists."
+msgstr ""
+
+#: wproto/controller/front-controller.php:606
+msgid ""
+"An unexpected error occurred. Try again later or contact to our support."
+msgstr ""
+
+#: wproto/controller/installation-controller.php:38
+#, php-format
+msgid ""
+"Cannot install the theme. PHP version > 5.3.0 is required. Your PHP version: "
+"%s"
+msgstr ""
+
+#: wproto/controller/installation-controller.php:42
+#, php-format
+msgid ""
+"Cannot activate the theme. WordPress version > 3.6 is required. Your "
+"WordPress version: %s"
+msgstr ""
+
+#: wproto/controller/menus-controller.php:95
+msgid "Custom Navigation Menus"
+msgstr ""
+
+#: wproto/controller/menus-controller.php:95
+msgid "Customize your menus - setup mega menu or add icons for any menu item."
+msgstr ""
+
+#: wproto/controller/menus-controller.php:118
+msgid "Site Sections"
+msgstr ""
+
+#: wproto/controller/oauth-controller.php:64
+#: wproto/controller/oauth-controller.php:108
+msgid ""
+"We can not identify the user because this email used for another account. "
+"Use another email address or contact to our support."
+msgstr ""
+
+#: wproto/controller/oauth-controller.php:69
+#: wproto/controller/oauth-controller.php:113
+msgid ""
+"An unexpected error occurred. Unable to complete the operation. Please, try "
+"again later or contact to our support. Server response: "
+msgstr ""
+
+#: wproto/controller/oauth-controller.php:73
+msgid "Wrong Facebook OAuth settings"
+msgstr ""
+
+#: wproto/controller/oauth-controller.php:118
+msgid "Wrong Google OAuth settings."
+msgstr ""
+
+#: wproto/controller/partners-controller.php:81
+msgid ""
+"It's a not public post type. Use this post type to manage your partners, "
+"clients etc."
+msgstr ""
+
+#: wproto/controller/photoalbum-controller.php:38
+#: wproto/widget/wproto_featured_posts.php:75
+#: wproto/widget/wproto_popular_posts.php:77
+#: wproto/widget/wproto_random_posts.php:75
+#: wproto/widget/wproto_recent_posts.php:76
+msgid "Photo Albums"
+msgstr ""
+
+#: wproto/controller/photoalbum-controller.php:38
+msgid ""
+"Create photo albums and add photos to them. You can use these posts as part "
+"of website, part of the content or as a widget."
+msgstr ""
+
+#: wproto/controller/photoalbum-controller.php:58
+msgid "Album Rating"
+msgstr ""
+
+#: wproto/controller/portfolio-controller.php:47
+msgid "Place here your works that you want to show to your website visitors."
+msgstr ""
+
+#: wproto/controller/portfolio-controller.php:67
+msgid "Portfolio Images"
+msgstr ""
+
+#: wproto/controller/portfolio-controller.php:76
+#: wproto/controller/post-controller.php:59
+msgid "Post Rating"
+msgstr ""
+
+#: wproto/controller/portfolio-controller.php:85
+msgid "Portfolio link"
+msgstr ""
+
+#: wproto/controller/post-controller.php:138
+#: wproto/controller/team-controller.php:95
+#: wproto/controller/testimonials-controller.php:33
+msgid "Photo"
+msgstr ""
+
+#: wproto/controller/post-controller.php:323
+msgid "Page template"
+msgstr ""
+
+#: wproto/controller/pricing_tables-controller.php:31
+msgid ""
+"Create unlimited number of pricing tables with amazing visual editor. You "
+"can use paste these tables at any post or page simply by clicking on editor "
+"button."
+msgstr ""
+
+#: wproto/controller/pricing_tables-controller.php:56
+msgid "Table Description (text after table title)"
+msgstr ""
+
+#: wproto/controller/pricing_tables-controller.php:65
+msgid "Pricing Table Editor"
+msgstr ""
+
+#: wproto/controller/pricing_tables-controller.php:74
+msgid "Style"
+msgstr ""
+
+#: wproto/controller/pricing_tables-controller.php:83
+msgid "Tip"
+msgstr ""
+
+#: wproto/controller/settings-controller.php:56
+msgid ""
+"Thank you for purchasing this theme. We hope that you will appreciate our "
+"work and you will like it."
+msgstr ""
+
+#: wproto/controller/settings-controller.php:132
+msgid ""
+"Maintenance mode is enabled. All pages of your website will be not "
+"availabled to visitors (<strong>users, with Administrator permissions are "
+"excluded</strong>) and search engines while maintenance mode is enabled."
+msgstr ""
+
+#: wproto/controller/settings-controller.php:132
+msgid "Settings page"
+msgstr ""
+
+#: wproto/controller/settings-controller.php:183
+msgid "Access denied"
+msgstr ""
+
+#: wproto/controller/settings-controller.php:236
+msgid "Feed was disabled by administrator"
+msgstr ""
+
+#: wproto/controller/shortcodes-controller.php:379
+msgid "Enter your name"
+msgstr ""
+
+#: wproto/controller/shortcodes-controller.php:383
+msgid "Enter valid email"
+msgstr ""
+
+#: wproto/controller/shortcodes-controller.php:387
+msgid "Enter your message"
+msgstr ""
+
+#: wproto/controller/shortcodes-controller.php:391
+msgid "Wrong form ID"
+msgstr ""
+
+#: wproto/controller/shortcodes-controller.php:395
+msgid "Wrong post ID"
+msgstr ""
+
+#: wproto/controller/shortcodes-controller.php:410
+#: wproto/controller/shortcodes-controller.php:427
+#: wproto/controller/shortcodes-controller.php:444
+msgid "Wrong captcha value"
+msgstr ""
+
+#: wproto/controller/shortcodes-controller.php:450
+msgid "Cannot read widget settings"
+msgstr ""
+
+#: wproto/controller/team-controller.php:68
+msgid "Public information"
+msgstr ""
+
+#: wproto/controller/team-controller.php:153
+msgid "Team Members"
+msgstr ""
+
+#: wproto/controller/team-controller.php:153
+msgid ""
+"Team - it's a not public post type. Use this post type to manage your staff."
+msgstr ""
+
+#: wproto/controller/template-controller.php:56
+msgid "Redirect Options"
+msgstr ""
+
+#: wproto/controller/template-controller.php:66
+msgid "Sidebar options"
+msgstr ""
+
+#: wproto/controller/template-controller.php:77
+msgid "Slider settings"
+msgstr ""
+
+#: wproto/controller/template-controller.php:88
+msgid "Appearance options"
+msgstr ""
+
+#: wproto/controller/template-controller.php:100
+msgid "Contact's page settings"
+msgstr ""
+
+#: wproto/controller/template-controller.php:110
+msgid "Layout settings"
+msgstr ""
+
+#: wproto/controller/template-controller.php:120
+msgid "Media Layout settings"
+msgstr ""
+
+#: wproto/controller/template-controller.php:130
+msgid "One page template settings"
+msgstr ""
+
+#: wproto/controller/template-controller.php:140
+msgid "Layout builder"
+msgstr ""
+
+#: wproto/controller/template-controller.php:158
+msgid "page"
+msgstr ""
+
+#: wproto/controller/template-controller.php:158
+msgid "post"
+msgstr ""
+
+#: wproto/controller/template-controller.php:378
+msgid "Invalid section type"
+msgstr ""
+
+#: wproto/controller/testimonials-controller.php:91
+msgid ""
+"Testimonials - it's a not public post type. Use this feature to collect your "
+"recommendation letters from happy clients and show them at website as a "
+"widget or as a part of page content."
+msgstr ""
+
+#: wproto/controller/testimonials-controller.php:137
+msgid "Additional info"
+msgstr ""
+
+#: wproto/controller/video-controller.php:37
+msgid "Use this post type to grab videos from YouTube and Vimeo services."
+msgstr ""
+
+#: wproto/controller/video-controller.php:50
+msgid "Featured video"
+msgstr ""
+
+#: wproto/controller/video-controller.php:59
+msgid "Video Rating"
+msgstr ""
+
+#: wproto/controller/video-controller.php:68
+msgid "Video Options"
+msgstr ""
+
+#: wproto/controller/video-controller.php:195
+#: wproto/controller/video-controller.php:241
+msgid "Server access error"
+msgstr ""
+
+#: wproto/controller/video-controller.php:259
+msgid "Thumbnail"
+msgstr ""
+
+#: wproto/controller/woocommerce-controller.php:35
+msgid "Displaying options"
+msgstr ""
+
+#: wproto/controller/woocommerce-controller.php:44
+msgid "Product Item Rating"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: wproto/helper/admin_menu_walker.php:54
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: wproto/helper/admin_menu_walker.php:58
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:95
+msgid "Edit Menu Item"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:104
+msgid "URL"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:111
+msgid "Navigation Label"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:117
+msgid "Title Attribute"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:124
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:129
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:135
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:143
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:152
+msgid "Menu icon"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:154
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:23
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:54
+#: wproto/view/metaboxes/benefits_style.tpl:39
+msgid "Select icon"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:160
+msgid "Do not display as link"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:165
+msgid "&laquo;Mega menu&raquo; style"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:170
+msgid "Hide this menu item at"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:174
+msgid "Large Desktops"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:177
+msgid "Desktop, width less than 1199px"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:180
+msgid "Tablet"
+msgstr ""
+
+#: wproto/helper/admin_menu_walker.php:192
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: wproto/helper/front.php:283
+msgid "Boxed layout"
+msgstr ""
+
+#: wproto/helper/front.php:294
+msgid "Background"
+msgstr ""
+
+#: wproto/helper/front.php:296
+msgid "Choose background"
+msgstr ""
+
+#: wproto/helper/front.php:297
+msgid "Background 1"
+msgstr ""
+
+#: wproto/helper/front.php:298
+msgid "Background 2"
+msgstr ""
+
+#: wproto/helper/front.php:299
+msgid "Background 3"
+msgstr ""
+
+#: wproto/helper/front.php:300
+msgid "Background 4"
+msgstr ""
+
+#: wproto/helper/front.php:307
+msgid "Choose pattern"
+msgstr ""
+
+#: wproto/helper/front.php:376
+msgid "Primary font"
+msgstr ""
+
+#: wproto/helper/front.php:385
+msgid "Secondary"
+msgstr ""
+
+#: wproto/helper/front.php:398
+msgid "Reset styles"
+msgstr ""
+
+#: wproto/helper/front.php:445 wproto/helper/front.php:456
+#: wproto/view/metaboxes/catalog.tpl:21
+msgid "SKU"
+msgstr ""
+
+#: wproto/helper/front.php:630
+msgid "Click to like this post"
+msgstr ""
+
+#: wproto/helper/front.php:630 wproto/view/metaboxes/post_likes.tpl:6
+msgid "Like"
+msgstr ""
+
+#: wproto/helper/front.php:698
+msgid "Home"
+msgstr ""
+
+#: wproto/helper/front.php:700 wproto/view/metaboxes/menu_archives.tpl:67
+#: wproto/view/metaboxes/menu_archives.tpl:71
+msgid "Shop"
+msgstr ""
+
+#: wproto/helper/front.php:727
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:25
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:25
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:17
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:25
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:25
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:25
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:17
+msgid "Category"
+msgstr ""
+
+#: wproto/helper/front.php:732
+msgid "Search results for"
+msgstr ""
+
+#: wproto/helper/front.php:797
+msgid "Attachment"
+msgstr ""
+
+#: wproto/helper/front.php:820
+msgid "Posts tagged"
+msgstr ""
+
+#: wproto/helper/front.php:825
+msgid "Articles posted by"
+msgstr ""
+
+#: wproto/helper/front.php:828
+msgid "Error 404"
+msgstr ""
+
+#: wproto/helper/front.php:872
+msgid "Go to page:"
+msgstr ""
+
+#: wproto/helper/front.php:894
+msgid "Older posts"
+msgstr ""
+
+#: wproto/helper/front.php:895
+msgid "Newer posts"
+msgstr ""
+
+#: wproto/helper/front.php:914
+msgid "Load more posts"
+msgstr ""
+
+#: wproto/helper/front.php:932 wproto/helper/front.php:942
+msgid "Share post"
+msgstr ""
+
+#: wproto/helper/front.php:972
+msgid "About the author"
+msgstr ""
+
+#: wproto/helper/front.php:1061
+msgid "Related Products"
+msgstr ""
+
+#: wproto/helper/front.php:1062
+msgid "products can interested you and are related"
+msgstr ""
+
+#: wproto/helper/front.php:1159
+msgid "Buy it now"
+msgstr ""
+
+#: wproto/helper/front_category_walker.php:24 wproto/helper/utils.php:353
+msgid "new"
+msgstr ""
+
+#: wproto/helper/front_category_walker.php:28
+msgid "featured"
+msgstr ""
+
+#: wproto/helper/utils.php:371
+msgid "Learn more"
+msgstr ""
+
+#: wproto/widget/woocommerce/woo-product-categories.php:93
+msgid "No product categories exist."
+msgstr ""
+
+#: wproto/widget/woocommerce/woo-recent-reviews.php:49
+#, php-format
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr ""
+
+#: wproto/widget/woocommerce/woo-recent-reviews.php:54
+msgid "review"
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:12
+msgid ""
+"A widget that displays the information about registered WordPress user. "
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:16
+msgid "&laquo;Galaxy&raquo; Author's Info"
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:49
+msgid "Author's info"
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:62
+#: wproto/widget/wproto_blog_posts.php:75 wproto/widget/wproto_catalog.php:79
+#: wproto/widget/wproto_categories.php:72
+#: wproto/widget/wproto_contact_form.php:70
+#: wproto/widget/wproto_contacts.php:60
+#: wproto/widget/wproto_featured_posts.php:67
+#: wproto/widget/wproto_google_map.php:60
+#: wproto/widget/wproto_logos_carousel.php:59
+#: wproto/widget/wproto_menus.php:61 wproto/widget/wproto_photoalbums.php:59
+#: wproto/widget/wproto_photos.php:57
+#: wproto/widget/wproto_popular_posts.php:69
+#: wproto/widget/wproto_portfolio.php:65 wproto/widget/wproto_progress.php:55
+#: wproto/widget/wproto_random_posts.php:67
+#: wproto/widget/wproto_recent_posts.php:68
+#: wproto/widget/wproto_social_icons.php:52 wproto/widget/wproto_team.php:68
+#: wproto/widget/wproto_testimonials.php:62
+#: wproto/widget/wproto_toggles.php:55
+msgid "Widget title:"
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:66
+msgid "Choose an user:"
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:81
+msgid "Show avatar"
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:85
+msgid "Display social profiles"
+msgstr ""
+
+#: wproto/widget/wproto_authors_info.php:89
+msgid "Display email"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:12
+msgid "A widget that displays the blog posts. "
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:16
+msgid "&laquo;Galaxy&raquo; Blog Posts"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:57
+msgid "Blog Posts"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:79
+#: wproto/widget/wproto_portfolio.php:69
+msgid "Posts status"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:83 wproto/widget/wproto_catalog.php:94
+#: wproto/widget/wproto_categories.php:89
+#: wproto/widget/wproto_portfolio.php:73
+msgid "Featured only"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:87
+msgid "Sticky only"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:90 wproto/widget/wproto_catalog.php:97
+#: wproto/widget/wproto_photoalbums.php:63 wproto/widget/wproto_photos.php:61
+#: wproto/widget/wproto_portfolio.php:76 wproto/widget/wproto_team.php:72
+#: wproto/widget/wproto_testimonials.php:66
+msgid "Displaying"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:94 wproto/widget/wproto_catalog.php:101
+msgid "Display thumbnails"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:98 wproto/widget/wproto_catalog.php:109
+msgid "Display excerpt"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:102
+#: wproto/widget/wproto_catalog.php:114
+msgid "Display likes"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:106
+#: wproto/widget/wproto_catalog.php:118
+msgid "Display views"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:110
+#: wproto/widget/wproto_catalog.php:122
+#: wproto/widget/wproto_featured_posts.php:98
+#: wproto/widget/wproto_popular_posts.php:108
+#: wproto/widget/wproto_random_posts.php:99
+#: wproto/widget/wproto_recent_posts.php:100
+msgid "Display comments count"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:113
+msgid "Number of posts to display:"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:117
+#: wproto/widget/wproto_catalog.php:130
+#: wproto/widget/wproto_logos_carousel.php:67
+#: wproto/widget/wproto_portfolio.php:87 wproto/widget/wproto_team.php:91
+#: wproto/widget/wproto_testimonials.php:77
+msgid "Display from categories:"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:119
+#: wproto/widget/wproto_catalog.php:132 wproto/widget/wproto_categories.php:88
+#: wproto/widget/wproto_logos_carousel.php:69
+#: wproto/widget/wproto_portfolio.php:89 wproto/widget/wproto_team.php:93
+#: wproto/widget/wproto_testimonials.php:79
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:20
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:20
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:12
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:20
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:20
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:20
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:12
+msgid "All categories"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:135
+msgid "Order posts by:"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:137
+#: wproto/widget/wproto_catalog.php:150
+#: wproto/widget/wproto_logos_carousel.php:87
+#: wproto/widget/wproto_portfolio.php:107 wproto/widget/wproto_team.php:111
+#: wproto/widget/wproto_testimonials.php:97
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:45
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:44
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:36
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:44
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:44
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:44
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:36
+msgid "ID"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:139
+#: wproto/widget/wproto_catalog.php:152
+#: wproto/widget/wproto_logos_carousel.php:89
+#: wproto/widget/wproto_portfolio.php:109 wproto/widget/wproto_team.php:113
+#: wproto/widget/wproto_testimonials.php:99
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:47
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:46
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:38
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:46
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:46
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:46
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:38
+msgid "Modified"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:141
+#: wproto/widget/wproto_catalog.php:154
+#: wproto/widget/wproto_logos_carousel.php:91
+#: wproto/widget/wproto_portfolio.php:111 wproto/widget/wproto_team.php:115
+#: wproto/widget/wproto_testimonials.php:101
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:49
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:48
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:40
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:48
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:48
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:48
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:40
+msgid "Random"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:142
+#: wproto/widget/wproto_catalog.php:155
+#: wproto/widget/wproto_logos_carousel.php:92
+#: wproto/widget/wproto_portfolio.php:112 wproto/widget/wproto_team.php:116
+#: wproto/widget/wproto_testimonials.php:102
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:50
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:49
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:41
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:49
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:49
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:49
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:41
+msgid "Menu order"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:146
+#: wproto/widget/wproto_catalog.php:159
+#: wproto/widget/wproto_logos_carousel.php:96
+#: wproto/widget/wproto_portfolio.php:116 wproto/widget/wproto_team.php:120
+#: wproto/widget/wproto_testimonials.php:106
+msgid "Sort:"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:148
+#: wproto/widget/wproto_catalog.php:161
+#: wproto/widget/wproto_logos_carousel.php:98
+#: wproto/widget/wproto_portfolio.php:118 wproto/widget/wproto_team.php:122
+#: wproto/widget/wproto_testimonials.php:108
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:56
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:55
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:47
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:55
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:55
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:55
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:47
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:216
+#: wproto/view/layout_editor/part_benefits.tpl:134
+#: wproto/view/layout_editor/part_catalog.tpl:108
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:108
+#: wproto/view/layout_editor/part_posts.tpl:100
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:100
+#: wproto/view/layout_editor/part_posts_video.tpl:100
+#: wproto/view/layout_editor/part_testimonials.tpl:108
+msgid "Ascending"
+msgstr ""
+
+#: wproto/widget/wproto_blog_posts.php:149
+#: wproto/widget/wproto_catalog.php:162
+#: wproto/widget/wproto_logos_carousel.php:99
+#: wproto/widget/wproto_portfolio.php:119 wproto/widget/wproto_team.php:123
+#: wproto/widget/wproto_testimonials.php:109
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:57
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:56
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:48
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:56
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:56
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:56
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:48
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:215
+#: wproto/view/layout_editor/part_benefits.tpl:133
+#: wproto/view/layout_editor/part_catalog.tpl:107
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:107
+#: wproto/view/layout_editor/part_posts.tpl:99
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:99
+#: wproto/view/layout_editor/part_posts_video.tpl:99
+#: wproto/view/layout_editor/part_testimonials.tpl:107
+msgid "Descending"
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:12
+msgid "A widget that displays the catalog items. "
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:16
+msgid "&laquo;Galaxy&raquo; Catalog"
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:83 wproto/widget/wproto_photoalbums.php:84
+#: wproto/widget/wproto_photos.php:82
+msgid "Link to:"
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:85
+msgid "Catalog post"
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:86
+msgid "Custom buy URL"
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:105
+msgid "Display price"
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:126 wproto/widget/wproto_portfolio.php:83
+#: wproto/widget/wproto_team.php:87 wproto/widget/wproto_testimonials.php:73
+msgid "Number of items to display:"
+msgstr ""
+
+#: wproto/widget/wproto_catalog.php:148 wproto/widget/wproto_portfolio.php:105
+#: wproto/widget/wproto_team.php:109 wproto/widget/wproto_testimonials.php:95
+msgid "Order items by:"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:12
+msgid "A widget that displays taxonomies."
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:16
+msgid "&laquo;Galaxy&raquo; Categories"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:76
+msgid "Choose a taxonomy:"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:78
+msgid "Blog category"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:79
+msgid "Video categories"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:80
+msgid "Photoalbum categories"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:81
+msgid "Catalog categories"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:82
+msgid "Portfolio categories"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:86
+msgid "Display:"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:90
+msgid "New only"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:91
+msgid "New and Featured only"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:96
+msgid "Display \"new\" sticker"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:100
+msgid "Display \"featured\" sticker"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:104
+msgid "Display category image"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:108
+msgid "Display category description"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:112
+msgid "Do not display empty categories"
+msgstr ""
+
+#: wproto/widget/wproto_categories.php:116
+msgid "Show count of posts"
+msgstr ""
+
+#: wproto/widget/wproto_contact_form.php:12
+msgid "A widget that displays the contact form. "
+msgstr ""
+
+#: wproto/widget/wproto_contact_form.php:16
+msgid "&laquo;Galaxy&raquo; Contact Form"
+msgstr ""
+
+#: wproto/widget/wproto_contact_form.php:57
+msgid "Contact Us"
+msgstr ""
+
+#: wproto/widget/wproto_contact_form.php:74
+msgid "Recipient Email:"
+msgstr ""
+
+#: wproto/widget/wproto_contact_form.php:78
+msgid "Email Subject:"
+msgstr ""
+
+#: wproto/widget/wproto_contact_form.php:82
+msgid "Text (optional):"
+msgstr ""
+
+#: wproto/widget/wproto_contact_form.php:87
+#: wproto/view/editor_buttons/wproto_insert_contact_form.tpl:19
+msgid "Enable captcha"
+msgstr ""
+
+#: wproto/widget/wproto_contacts.php:12
+msgid "A widget that displays your contacts (address, phone, etc.). "
+msgstr ""
+
+#: wproto/widget/wproto_contacts.php:16
+msgid "&laquo;Galaxy&raquo; Contact Information"
+msgstr ""
+
+#: wproto/widget/wproto_contacts.php:49
+msgid "Contacts"
+msgstr ""
+
+#: wproto/widget/wproto_contacts.php:64
+msgid "Free text:"
+msgstr ""
+
+#: wproto/widget/wproto_contacts.php:68 wproto/widget/wproto_google_map.php:68
+msgid "Address:"
+msgstr ""
+
+#: wproto/widget/wproto_contacts.php:72
+msgid "Phone number:"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:12
+msgid "A widget that displays the featured posts. "
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:16
+msgid "&laquo;Galaxy&raquo; Featured Posts"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:53
+#: wproto/view/admin_filters/posts_filter.tpl:3
+msgid "Featured posts"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:71
+#: wproto/widget/wproto_popular_posts.php:73
+#: wproto/widget/wproto_random_posts.php:71
+#: wproto/widget/wproto_recent_posts.php:72
+msgid "Post type:"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:73
+#: wproto/widget/wproto_popular_posts.php:75
+#: wproto/widget/wproto_random_posts.php:73
+#: wproto/widget/wproto_recent_posts.php:74
+msgid "Blog posts"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:82
+#: wproto/widget/wproto_popular_posts.php:92
+#: wproto/widget/wproto_random_posts.php:81
+#: wproto/widget/wproto_recent_posts.php:82
+msgid "Display post thumbnails"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:86
+#: wproto/widget/wproto_popular_posts.php:96
+#: wproto/widget/wproto_random_posts.php:86
+#: wproto/widget/wproto_recent_posts.php:87
+msgid "Display post excerpt"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:90
+#: wproto/widget/wproto_popular_posts.php:100
+#: wproto/widget/wproto_random_posts.php:90
+#: wproto/widget/wproto_recent_posts.php:91
+msgid "Display post likes"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:94
+#: wproto/widget/wproto_popular_posts.php:104
+#: wproto/widget/wproto_random_posts.php:94
+#: wproto/widget/wproto_recent_posts.php:95
+msgid "Display post views"
+msgstr ""
+
+#: wproto/widget/wproto_featured_posts.php:102
+#: wproto/widget/wproto_popular_posts.php:112
+#: wproto/widget/wproto_random_posts.php:102
+#: wproto/widget/wproto_recent_posts.php:103
+msgid "Posts count:"
+msgstr ""
+
+#: wproto/widget/wproto_google_map.php:12
+msgid "A widget that displays the google map. "
+msgstr ""
+
+#: wproto/widget/wproto_google_map.php:16
+msgid "&laquo;Galaxy&raquo; Google Map"
+msgstr ""
+
+#: wproto/widget/wproto_google_map.php:50
+msgid "Google Map"
+msgstr ""
+
+#: wproto/widget/wproto_google_map.php:64
+msgid "Text before map (optional):"
+msgstr ""
+
+#: wproto/widget/wproto_google_map.php:72
+msgid "Text after map (optional):"
+msgstr ""
+
+#: wproto/widget/wproto_login.php:12
+msgid "A widget that displays the social signin / sugnup form. "
+msgstr ""
+
+#: wproto/widget/wproto_login.php:16
+msgid "&laquo;Galaxy&raquo; Register / Login"
+msgstr ""
+
+#: wproto/widget/wproto_login.php:53
+msgid "Sign In / Sign Up"
+msgstr ""
+
+#: wproto/widget/wproto_login.php:62
+msgid "Widget title for unregistered users:"
+msgstr ""
+
+#: wproto/widget/wproto_login.php:66
+msgid "Hide widget from authorized users:"
+msgstr ""
+
+#: wproto/widget/wproto_login.php:70
+msgid "Widget title for authorized users (optional):"
+msgstr ""
+
+#: wproto/widget/wproto_login.php:74
+msgid "Go to theme's API options"
+msgstr ""
+
+#: wproto/widget/wproto_logos_carousel.php:12
+msgid "A widget that displays your partners or clients logos. "
+msgstr ""
+
+#: wproto/widget/wproto_logos_carousel.php:16
+msgid "&laquo;Galaxy&raquo; Logos Carousel"
+msgstr ""
+
+#: wproto/widget/wproto_logos_carousel.php:48
+msgid "Our Clients / Partners"
+msgstr ""
+
+#: wproto/widget/wproto_logos_carousel.php:63
+msgid "Number of logos to display:"
+msgstr ""
+
+#: wproto/widget/wproto_logos_carousel.php:85
+msgid "Order logos by:"
+msgstr ""
+
+#: wproto/widget/wproto_menus.php:12
+msgid "A widget that displays menus."
+msgstr ""
+
+#: wproto/widget/wproto_menus.php:16
+msgid "&laquo;Galaxy&raquo; Menus"
+msgstr ""
+
+#: wproto/widget/wproto_menus.php:48
+msgid "Menus"
+msgstr ""
+
+#: wproto/widget/wproto_menus.php:65
+msgid "Choose a menu:"
+msgstr ""
+
+#: wproto/widget/wproto_menus.php:78
+msgid "Display icons"
+msgstr ""
+
+#: wproto/widget/wproto_photoalbums.php:12
+msgid "A widget that displays the photoalbums. "
+msgstr ""
+
+#: wproto/widget/wproto_photoalbums.php:16
+msgid "&laquo;Galaxy&raquo; Photoalbums"
+msgstr ""
+
+#: wproto/widget/wproto_photoalbums.php:49
+msgid "Photoalbums"
+msgstr ""
+
+#: wproto/widget/wproto_photoalbums.php:66 wproto/widget/wproto_photos.php:64
+msgid "Number of photos to display:"
+msgstr ""
+
+#: wproto/widget/wproto_photoalbums.php:70 wproto/widget/wproto_photos.php:68
+msgid "Select photoalbum:"
+msgstr ""
+
+#: wproto/widget/wproto_photoalbums.php:86
+msgid "File (will be opened at LightBox)"
+msgstr ""
+
+#: wproto/widget/wproto_photoalbums.php:87 wproto/widget/wproto_photos.php:85
+msgid "Photo Album"
+msgstr ""
+
+#: wproto/widget/wproto_photos.php:12
+msgid "A widget that displays the photos. "
+msgstr ""
+
+#: wproto/widget/wproto_photos.php:16
+msgid "&laquo;Galaxy&raquo; Photos"
+msgstr ""
+
+#: wproto/widget/wproto_photos.php:47
+msgid "Photos"
+msgstr ""
+
+#: wproto/widget/wproto_photos.php:84
+msgid "File (LightBox)"
+msgstr ""
+
+#: wproto/widget/wproto_popular_posts.php:12
+msgid "A widget that displays the popular posts (by views or likes count). "
+msgstr ""
+
+#: wproto/widget/wproto_popular_posts.php:16
+msgid "&laquo;Galaxy&raquo; Popular Posts"
+msgstr ""
+
+#: wproto/widget/wproto_popular_posts.php:54
+msgid "Popular posts"
+msgstr ""
+
+#: wproto/widget/wproto_popular_posts.php:82
+msgid "Popularity:"
+msgstr ""
+
+#: wproto/widget/wproto_popular_posts.php:86
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:205
+#: wproto/view/layout_editor/part_benefits.tpl:123
+#: wproto/view/layout_editor/part_catalog.tpl:97
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:97
+#: wproto/view/layout_editor/part_posts.tpl:89
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:89
+#: wproto/view/layout_editor/part_posts_video.tpl:89
+#: wproto/view/layout_editor/part_testimonials.tpl:97
+msgid "Comments count"
+msgstr ""
+
+#: wproto/widget/wproto_portfolio.php:12
+msgid "A widget that displays the portfolio. "
+msgstr ""
+
+#: wproto/widget/wproto_portfolio.php:16
+msgid "&laquo;Galaxy&raquo; Portfolio"
+msgstr ""
+
+#: wproto/widget/wproto_portfolio.php:52
+msgid "Our Portfolio"
+msgstr ""
+
+#: wproto/widget/wproto_portfolio.php:80
+msgid "Display description"
+msgstr ""
+
+#: wproto/widget/wproto_progress.php:12
+msgid "A widget that displays the progress bars. "
+msgstr ""
+
+#: wproto/widget/wproto_progress.php:16
+msgid "&laquo;Galaxy&raquo; Progress Bars"
+msgstr ""
+
+#: wproto/widget/wproto_progress.php:47
+msgid "Our Skills"
+msgstr ""
+
+#: wproto/widget/wproto_progress.php:60
+msgid "Click here to edit progress bars"
+msgstr ""
+
+#: wproto/widget/wproto_random_posts.php:12
+msgid "A widget that displays the random posts. "
+msgstr ""
+
+#: wproto/widget/wproto_random_posts.php:16
+msgid "&laquo;Galaxy&raquo; Random Posts"
+msgstr ""
+
+#: wproto/widget/wproto_random_posts.php:53
+msgid "Random posts"
+msgstr ""
+
+#: wproto/widget/wproto_recent_posts.php:12
+msgid "A widget that displays the recent posts. "
+msgstr ""
+
+#: wproto/widget/wproto_recent_posts.php:16
+msgid "&laquo;Galaxy&raquo; Recent Posts"
+msgstr ""
+
+#: wproto/widget/wproto_recent_posts.php:54
+msgid "Recent posts"
+msgstr ""
+
+#: wproto/widget/wproto_site_description.php:12
+msgid "A widget that displays your logo and short site description. "
+msgstr ""
+
+#: wproto/widget/wproto_site_description.php:16
+msgid "&laquo;Galaxy&raquo; Site Description"
+msgstr ""
+
+#: wproto/widget/wproto_site_description.php:53
+msgid "Logo:"
+msgstr ""
+
+#: wproto/widget/wproto_site_description.php:55
+#: wproto/widget/wproto_site_description.php:61
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:113
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:125
+#: wproto/view/layout_editor/part_parallax.tpl:13
+#: wproto/view/settings/settings.tpl:80 wproto/view/settings/settings.tpl:90
+#: wproto/view/settings/settings.tpl:115 wproto/view/settings/settings.tpl:120
+#: wproto/view/settings/settings.tpl:136 wproto/view/settings/settings.tpl:140
+#: wproto/view/settings/settings.tpl:144 wproto/view/settings/settings.tpl:148
+#: wproto/view/settings/settings.tpl:868 wproto/view/settings/settings.tpl:876
+#: wproto/view/settings/settings.tpl:884 wproto/view/settings/settings.tpl:892
+#: wproto/view/settings/settings.tpl:1093
+#: wproto/view/settings/settings.tpl:1101
+#: wproto/view/settings/settings.tpl:1109
+#: wproto/view/settings/settings.tpl:1117
+msgid "Upload"
+msgstr ""
+
+#: wproto/widget/wproto_site_description.php:59
+msgid "Logo in twice size for retina displays:"
+msgstr ""
+
+#: wproto/widget/wproto_site_description.php:64
+msgid "Original logo width:"
+msgstr ""
+
+#: wproto/widget/wproto_site_description.php:69
+msgid "Description after logo (optional):"
+msgstr ""
+
+#: wproto/widget/wproto_social_icons.php:12
+msgid "A widget that displays your social icons. "
+msgstr ""
+
+#: wproto/widget/wproto_social_icons.php:16
+msgid "&laquo;Galaxy&raquo; Social Icons"
+msgstr ""
+
+#: wproto/widget/wproto_team.php:12
+msgid "A widget that displays the team. "
+msgstr ""
+
+#: wproto/widget/wproto_team.php:16
+msgid "&laquo;Galaxy&raquo; Team"
+msgstr ""
+
+#: wproto/widget/wproto_team.php:54
+msgid "Our Team"
+msgstr ""
+
+#: wproto/widget/wproto_team.php:76
+msgid "Display age"
+msgstr ""
+
+#: wproto/widget/wproto_team.php:80
+msgid "Display position"
+msgstr ""
+
+#: wproto/widget/wproto_team.php:84
+msgid "Display experience"
+msgstr ""
+
+#: wproto/widget/wproto_testimonials.php:12
+msgid "A widget that displays the testimonials. "
+msgstr ""
+
+#: wproto/widget/wproto_testimonials.php:16
+msgid "&laquo;Galaxy&raquo; Testimonials"
+msgstr ""
+
+#: wproto/widget/wproto_testimonials.php:70
+msgid "Display photo"
+msgstr ""
+
+#: wproto/widget/wproto_toggles.php:12
+msgid "A widget that displays the toggles. "
+msgstr ""
+
+#: wproto/widget/wproto_toggles.php:16
+msgid "&laquo;Galaxy&raquo; Toggles"
+msgstr ""
+
+#: wproto/widget/wproto_toggles.php:47
+msgid "Toggles Widget"
+msgstr ""
+
+#: wproto/widget/wproto_toggles.php:60
+msgid "Click here to add toggles"
+msgstr ""
+
+#: wproto/view/admin_filters/category_filter.tpl:4
+msgid "Show all categories"
+msgstr ""
+
+#: wproto/view/admin_filters/is_featured.tpl:1
+msgid "Change &laquo;Featured&raquo; status"
+msgstr ""
+
+#: wproto/view/admin_filters/is_featured.tpl:1
+msgid "Click here to mark this post as featured or default."
+msgstr ""
+
+#: wproto/view/admin_filters/is_sticky.tpl:1
+msgid "Change &laquo;Sticky&raquo; status"
+msgstr ""
+
+#: wproto/view/admin_filters/is_sticky.tpl:1
+msgid "Click here to make a post sticky or default."
+msgstr ""
+
+#: wproto/view/admin_filters/pages_filter.tpl:2
+msgid "Filter by page template"
+msgstr ""
+
+#: wproto/view/admin_filters/pages_filter.tpl:13
+msgid "Redirect filter"
+msgstr ""
+
+#: wproto/view/admin_filters/pages_filter.tpl:14
+msgid "Pages with redirect"
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:2
+msgid "Is Featured?..."
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:8
+msgid "Post format..."
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:9
+msgid "Aside"
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:10
+msgid "Gallery"
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:11
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:27
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:36
+#: wproto/view/editor_buttons/wproto_insert_shorted_link.tpl:6
+msgid "Link"
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:13
+msgid "Quote"
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:16
+msgid "Audio"
+msgstr ""
+
+#: wproto/view/admin_filters/posts_filter.tpl:17
+msgid "Chat"
+msgstr ""
+
+#: wproto/view/admin_filters/slide_type_filter.tpl:2
+msgid "Slide Type"
+msgstr ""
+
+#: wproto/view/admin_filters/videos_filter.tpl:3
+msgid "Video type"
+msgstr ""
+
+#: wproto/view/admin_filters/videos_filter.tpl:4
+msgid "YouTube"
+msgstr ""
+
+#: wproto/view/admin_filters/videos_filter.tpl:5
+msgid "Vimeo"
+msgstr ""
+
+#: wproto/view/custom_fields/category_featured_add.tpl:2
+#: wproto/view/custom_fields/category_featured_edit.tpl:3
+msgid "This category is featured"
+msgstr ""
+
+#: wproto/view/custom_fields/category_image_add.tpl:2
+#: wproto/view/custom_fields/category_image_edit.tpl:14
+msgid "Category image"
+msgstr ""
+
+#: wproto/view/custom_fields/category_image_add.tpl:3
+#: wproto/view/custom_fields/category_image_edit.tpl:17
+msgid "Choose an image to use it as a category image (optional)"
+msgstr ""
+
+#: wproto/view/custom_fields/category_new_add.tpl:2
+#: wproto/view/custom_fields/category_new_edit.tpl:3
+msgid "Display this category as \"new\""
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:1
+msgid "OAuth Data"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:5
+msgid "Facebook Profile ID"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:11
+msgid "Google Profile ID"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:18
+msgid "Links to social profiles"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:22
+msgid "Dribble profile URL"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:28
+msgid "Facebook profile URL"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:34
+msgid "Flickr profile URL"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:40
+msgid "Google plus profile URL"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:46
+msgid "LinkedIn profile URL"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:52
+msgid "Tumblr profile URL"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:58
+msgid "Twitter profile URL"
+msgstr ""
+
+#: wproto/view/custom_fields/user_custom_fields.tpl:64
+msgid "YouTube profile URL"
+msgstr ""
+
+#: wproto/view/dialog/demo_data_notice.tpl:2
+msgid "Dear customer!"
+msgstr ""
+
+#: wproto/view/dialog/demo_data_notice.tpl:4
+msgid ""
+"<a href=\"javascript:;\" id=\"wproto-hide-demo-data-message\" class=\"button "
+"wproto-blue\">Hide this message</a>"
+msgstr ""
+
+#: wproto/view/dialog/icon_picker.tpl:11
+msgid "Display all libraries"
+msgstr ""
+
+#: wproto/view/dialog/icon_picker.tpl:12
+msgid "Font Awesome Library"
+msgstr ""
+
+#: wproto/view/dialog/icon_picker.tpl:14
+msgid "Ico Moon Library"
+msgstr ""
+
+#: wproto/view/dialog/icon_picker.tpl:25
+msgid "Font Awesome Icons"
+msgstr ""
+
+#: wproto/view/dialog/icon_picker.tpl:40
+msgid "IcoMoon Icons"
+msgstr ""
+
+#: wproto/view/dialog/icon_picker.tpl:57
+msgid "No icons founded"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_animation.tpl:2
+msgid "Choose animation that will be applied to the selected image"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_animation.tpl:8
+msgid "No animation"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_audio.tpl:2
+msgid "URL path to audio file"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_audio.tpl:3
+#: wproto/view/editor_buttons/wproto_insert_video.tpl:3
+msgid "Choose..."
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:6
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:6
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:6
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:6
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:6
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:6
+msgid "Number of posts to display"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:10
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:10
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:10
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:10
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:10
+msgid "Number of columns"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:18
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:18
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:10
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:18
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:18
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:18
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:10
+msgid "Display posts"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:21
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:21
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:13
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:21
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:21
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:21
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:13
+msgid "Select category..."
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:43
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:42
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:34
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:42
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:42
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:42
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:34
+msgid "Order by"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_benefits.tpl:54
+#: wproto/view/editor_buttons/wproto_insert_catalog.tpl:53
+#: wproto/view/editor_buttons/wproto_insert_partners_clients.tpl:45
+#: wproto/view/editor_buttons/wproto_insert_portfolio.tpl:53
+#: wproto/view/editor_buttons/wproto_insert_posts.tpl:53
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:53
+#: wproto/view/editor_buttons/wproto_insert_testimonials.tpl:45
+msgid "Sort"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:2
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:24
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:93
+#: wproto/view/layout_editor/metabox_slider.tpl:122
+#: wproto/view/layout_editor/part_parallax.tpl:128
+#: wproto/view/layout_editor/part_portfolio.tpl:91
+#: wproto/view/layout_editor/part_slider.tpl:71
+#: wproto/view/metaboxes/pricing_table_editor.tpl:44
+#: wproto/view/metaboxes/pricing_table_editor.tpl:129
+msgid "Button text"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:6
+msgid "Size"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:8
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:45
+msgid "Small"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:9
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:46
+msgid "Medium"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:10
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:47
+#: wproto/view/layout_editor/metabox_appearance.tpl:97
+msgid "Big"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:14
+#: wproto/view/editor_buttons/wproto_insert_highlight.tpl:2
+msgid "Color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:17
+msgid "Green"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:22
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:53
+#: wproto/view/metaboxes/pricing_table_editor_tip.tpl:10
+msgid "Icon"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_button.tpl:31
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:40
+msgid "Open link at new window?"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:1
+msgid "Text colors"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:7
+msgid "Title color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:15
+msgid "Text color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:18
+msgid "Action button"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:20
+msgid "Show link button"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:28
+msgid "Button Background Color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:32
+msgid "Button Text Color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:43
+msgid "Button size"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:51
+msgid "Box Icon"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:58
+msgid "Icon Color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:61
+msgid "Box style"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:63
+msgid "Border Color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_call_to_action.tpl:67
+msgid "Background Color"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_contact_form.tpl:3
+msgid "Recipient email"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_contact_form.tpl:7
+msgid "Email subject"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_contact_form.tpl:8
+#: wproto/view/shortcodes/contact_form.tpl:11
+#: wproto/view/widgets/contact_form.tpl:24
+msgid "Feedback from website"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_divider_button.tpl:2
+msgid "Choose divider style"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_divider_button.tpl:6
+msgid "Narrow"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_divider_button.tpl:8
+msgid "Wide"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_divider_button.tpl:10
+msgid "Gap"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_divider_button.tpl:12
+msgid "Double Gap"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_googlemap.tpl:2
+msgid "Type address"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_googlemap.tpl:3
+msgid "California"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_googlemap.tpl:6
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:132
+msgid "Map zoom"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_photogallery.tpl:10
+msgid "Choose an album"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_photogallery.tpl:26
+msgid "Photos Limit"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_pricing_tables.tpl:4
+msgid "Choose a table"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_progress.tpl:21
+msgid "Add Progress Bar"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_progress.tpl:29
+#: wproto/view/editor_buttons/wproto_insert_progress.tpl:47
+msgid "Progress bar title"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_shorted_link.tpl:2
+msgid "Link text"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_slider.tpl:6
+msgid "Choose a slider"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_slider.tpl:22
+msgid ""
+"You have not installed Layer Slider plugin yet, so we cannot retrieve the "
+"slideshows list."
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_team.tpl:6
+msgid "Number of members to display"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_toggle_tabs.tpl:1
+msgid "Add Items"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_toggle_tabs.tpl:13
+#: wproto/view/editor_buttons/wproto_insert_tooltip_button.tpl:6
+msgid "Content"
+msgstr ""
+
+#: wproto/view/editor_buttons/wproto_insert_video.tpl:2
+msgid "URL path to video file"
+msgstr ""
+
+#: wproto/view/front/cart.tpl:34
+msgid "Cart subtotal"
+msgstr ""
+
+#: wproto/view/front/cart.tpl:47
+msgid "Close"
+msgstr ""
+
+#: wproto/view/front/woocommerce_oauth.tpl:3
+msgid "Sign In / Sign Up with social networks"
+msgstr ""
+
+#: wproto/view/front/woocommerce_oauth.tpl:12
+msgid "Login with Facebook"
+msgstr ""
+
+#: wproto/view/front/woocommerce_oauth.tpl:18
+msgid "Login with Google"
+msgstr ""
+
+#: wproto/view/infobox/copyright.tpl:1
+msgid ""
+"Theme created by <a target=\"_blank\" href=\"http://themeforest.net/user/"
+"wplab?ref=wplab\">WPlab</a>"
+msgstr ""
+
+#: wproto/view/infobox/copyright.tpl:1
+msgid "Hide"
+msgstr ""
+
+#: wproto/view/layout_editor/add_edit_section.tpl:15
+msgid "Save &amp; Close"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:8
+#: wproto/view/settings/settings.tpl:221
+msgid "Related posts"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:9
+#: wproto/view/settings/settings.tpl:224
+msgid "posts can interested you and are related"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:14
+msgid "Hide page title and breadcrumbs"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:28
+msgid "Hide featured image at post page"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:43
+msgid "Display related posts block"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:55
+msgid "Display related posts from same category"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:56
+msgid "Display random posts from any category"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:69
+#: wproto/view/settings/settings.tpl:265
+msgid "Related posts block title"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:77
+msgid "Related posts block sub-title"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:90
+msgid "Post size"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_appearance.tpl:91
+msgid "Will be applied only for Masonry Layout"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_one_page_template.tpl:8
+msgid "Display external blog link at header menu"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_one_page_template.tpl:21
+#: wproto/view/layout_editor/metabox_sidebar.tpl:55
+msgid "Show widgetized footer"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_one_page_template.tpl:34
+#: wproto/view/layout_editor/metabox_sidebar.tpl:68
+msgid "Choose a widget area which will be displayed at footer"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:7
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:10
+msgid "Add section"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:7
+msgid "Click here to add new content section"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:19
+msgid "Hexagon portfolio"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:20
+#: wproto/view/layout_editor/section.tpl:20
+msgid "Text block"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:23
+#: wproto/view/layout_editor/section.tpl:24
+msgid "Slider"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:26
+msgid "WooCommerce Products"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:28
+msgid "Blog Posts Carousel"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:29
+#: wproto/view/layout_editor/section.tpl:40
+msgid "Video Posts Carousel"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:30
+#: wproto/view/layout_editor/section.tpl:44
+msgid "Photoalbums Posts Carousel"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:31
+#: wproto/view/layout_editor/section.tpl:48
+msgid "Subscribe form"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:32
+#: wproto/view/layout_editor/section.tpl:52
+msgid "Parallax"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:33
+msgid "Pricing table"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_builder.tpl:34
+#: wproto/view/layout_editor/section.tpl:64
+msgid "Contact &amp; Map"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:26
+msgid "One Column List"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:29
+msgid "One Column Grid"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:32
+msgid "Two Columns"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:35
+msgid "Three Columns"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:38
+msgid "Four Columns"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:41
+msgid "Masonry Layout"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:44
+msgid "Timeline"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:47
+msgid "Hexagon"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:59
+msgid "Display posts filters"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:72
+msgid "Products default view"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:76
+msgid "Grid"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:77
+msgid "List"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:83
+msgid "Display page content"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:87
+msgid "Do not display page content"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:88
+msgid "Display before list of posts"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:89
+msgid "Display after list of posts"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:95
+msgid "Posts per page"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:103
+msgid "Show pagination"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:116
+msgid "Pagination style"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:119
+msgid "Numeric"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:120
+msgid "Previous / Next"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:121
+msgid "AJAX"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:126
+msgid "Display posts from categories"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:129
+#: wproto/view/layout_editor/part_benefits.tpl:54
+#: wproto/view/layout_editor/part_catalog.tpl:28
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:28
+#: wproto/view/layout_editor/part_posts.tpl:28
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:28
+#: wproto/view/layout_editor/part_posts_video.tpl:28
+#: wproto/view/layout_editor/part_testimonials.tpl:28
+msgid "Only"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:130
+#: wproto/view/layout_editor/part_benefits.tpl:55
+#: wproto/view/layout_editor/part_catalog.tpl:29
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:29
+#: wproto/view/layout_editor/part_posts.tpl:29
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:29
+#: wproto/view/layout_editor/part_posts_video.tpl:29
+#: wproto/view/layout_editor/part_testimonials.tpl:29
+msgid "All, Except"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:133
+#: wproto/view/layout_editor/part_benefits.tpl:58
+#: wproto/view/layout_editor/part_catalog.tpl:32
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:32
+#: wproto/view/layout_editor/part_posts.tpl:32
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:32
+#: wproto/view/layout_editor/part_posts_video.tpl:32
+#: wproto/view/layout_editor/part_testimonials.tpl:32
+msgid "Select all"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:134
+#: wproto/view/layout_editor/part_benefits.tpl:59
+#: wproto/view/layout_editor/part_catalog.tpl:33
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:33
+#: wproto/view/layout_editor/part_posts.tpl:33
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:33
+#: wproto/view/layout_editor/part_posts_video.tpl:33
+#: wproto/view/layout_editor/part_testimonials.tpl:33
+msgid "Select none"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:184
+#: wproto/view/layout_editor/part_benefits.tpl:92
+#: wproto/view/layout_editor/part_catalog.tpl:66
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:66
+#: wproto/view/layout_editor/part_posts.tpl:66
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:66
+#: wproto/view/layout_editor/part_posts_video.tpl:66
+#: wproto/view/layout_editor/part_testimonials.tpl:66
+msgid "You did not create any categories yet."
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:195
+msgid "Posts order"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:200
+#: wproto/view/layout_editor/part_benefits.tpl:118
+#: wproto/view/layout_editor/part_catalog.tpl:92
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:92
+#: wproto/view/layout_editor/part_posts.tpl:84
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:84
+#: wproto/view/layout_editor/part_posts_video.tpl:84
+#: wproto/view/layout_editor/part_testimonials.tpl:92
+msgid "Post title"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:201
+#: wproto/view/layout_editor/part_benefits.tpl:119
+#: wproto/view/layout_editor/part_catalog.tpl:93
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:93
+#: wproto/view/layout_editor/part_posts.tpl:85
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:85
+#: wproto/view/layout_editor/part_posts_video.tpl:85
+#: wproto/view/layout_editor/part_testimonials.tpl:93
+msgid "Post date"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:202
+#: wproto/view/layout_editor/part_benefits.tpl:120
+#: wproto/view/layout_editor/part_catalog.tpl:94
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:94
+#: wproto/view/layout_editor/part_posts.tpl:86
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:86
+#: wproto/view/layout_editor/part_posts_video.tpl:86
+#: wproto/view/layout_editor/part_testimonials.tpl:94
+msgid "Modified date"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:203
+#: wproto/view/layout_editor/part_benefits.tpl:121
+#: wproto/view/layout_editor/part_catalog.tpl:95
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:95
+#: wproto/view/layout_editor/part_posts.tpl:87
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:87
+#: wproto/view/layout_editor/part_posts_video.tpl:87
+#: wproto/view/layout_editor/part_testimonials.tpl:95
+msgid "Post slug"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:204
+#: wproto/view/layout_editor/part_benefits.tpl:122
+#: wproto/view/layout_editor/part_catalog.tpl:96
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:96
+#: wproto/view/layout_editor/part_posts.tpl:88
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:88
+#: wproto/view/layout_editor/part_posts_video.tpl:88
+#: wproto/view/layout_editor/part_testimonials.tpl:96
+msgid "Post author"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_layout_settings.tpl:211
+msgid "Posts sort"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:8
+msgid "Content to display"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:19
+msgid "Select a post to display images from"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:26
+msgid "Start typing to search the posts"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:39
+msgid "Display image title and date"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:54
+msgid "Show call to action block after slider"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:68
+#: wproto/view/layout_editor/part_slider.tpl:45
+msgid "Call to action text"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_page_media_layout_settings.tpl:101
+#: wproto/view/layout_editor/metabox_slider.tpl:114
+#: wproto/view/layout_editor/part_parallax.tpl:136
+#: wproto/view/layout_editor/part_portfolio.tpl:99
+#: wproto/view/layout_editor/part_slider.tpl:79
+msgid "Button link"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_sidebar.tpl:15
+msgid "With Left Sidebar"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_sidebar.tpl:16
+msgid "With Right Sidebar"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_sidebar.tpl:17
+msgid "No Sidebar"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_sidebar.tpl:27
+msgid "Page sidebar"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_sidebar.tpl:32
+msgid "Choose a widget area which will be displayed at sidebar"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_sidebar.tpl:50
+msgid "Widgetized Footer"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:18
+msgid "Show slider"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:32
+#: wproto/view/metaboxes/team_member.tpl:8
+#: wproto/view/metaboxes/testimonials.tpl:2 wproto/view/widgets/team.tpl:67
+msgid "Position"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:36
+msgid "At page header"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:37
+msgid "Below post header"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:43
+#: wproto/view/layout_editor/part_slider.tpl:6
+msgid "Choose slideshow"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:47
+msgid "Select..."
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:58
+msgid "Display text section after slider"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:59
+msgid "This setting can be applied only for &laquo;page header&raquo; slider"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:72
+msgid "Header text"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:80
+msgid "Subheader text"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:88
+msgid "Display action button"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_slider.tpl:101
+msgid "Open button link at new window"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:3
+msgid "Message was sent! Thank you!"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:23
+msgid "Your E-mail (to:)"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:31
+msgid "Success text message"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:82
+msgid "Display captcha"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:95
+#: wproto/view/settings/settings.tpl:518
+msgid "Display social icons"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:108
+msgid "Custom google map logo"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:112
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:124
+msgid "Choose an image:"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:120
+msgid "Custom google map pointer"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:140
+msgid "Map draggable"
+msgstr ""
+
+#: wproto/view/layout_editor/metabox_tpl_contacts.tpl:153
+msgid "Map Zoom Control"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:2
+msgid "Benefits section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:6
+#: wproto/view/layout_editor/part_catalog.tpl:6
+#: wproto/view/layout_editor/part_contact.tpl:6
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:6
+#: wproto/view/layout_editor/part_parallax.tpl:77
+#: wproto/view/layout_editor/part_portfolio.tpl:6
+#: wproto/view/layout_editor/part_posts.tpl:6
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:6
+#: wproto/view/layout_editor/part_posts_video.tpl:6
+#: wproto/view/layout_editor/part_product.tpl:6
+#: wproto/view/layout_editor/part_subscribe_form.tpl:6
+#: wproto/view/layout_editor/part_testimonials.tpl:6
+#: wproto/view/layout_editor/part_text.tpl:6
+msgid "Section title (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:14
+#: wproto/view/layout_editor/part_catalog.tpl:14
+#: wproto/view/layout_editor/part_contact.tpl:14
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:14
+#: wproto/view/layout_editor/part_portfolio.tpl:14
+#: wproto/view/layout_editor/part_posts.tpl:14
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:14
+#: wproto/view/layout_editor/part_posts_video.tpl:14
+#: wproto/view/layout_editor/part_product.tpl:14
+#: wproto/view/layout_editor/part_subscribe_form.tpl:14
+#: wproto/view/layout_editor/part_testimonials.tpl:14
+#: wproto/view/layout_editor/part_text.tpl:14
+msgid "Section subtitle (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:22
+#: wproto/view/layout_editor/part_portfolio.tpl:22
+msgid "Text after subtitle (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:51
+msgid "Display benefits from categories"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:101
+#: wproto/view/layout_editor/part_catalog.tpl:75
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:75
+#: wproto/view/layout_editor/part_testimonials.tpl:75
+msgid "Items limit"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:109
+#: wproto/view/layout_editor/part_catalog.tpl:83
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:83
+#: wproto/view/layout_editor/part_posts.tpl:75
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:75
+#: wproto/view/layout_editor/part_posts_video.tpl:75
+#: wproto/view/layout_editor/part_testimonials.tpl:83
+msgid "Items order"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:129
+#: wproto/view/layout_editor/part_catalog.tpl:103
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:103
+#: wproto/view/layout_editor/part_posts.tpl:95
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:95
+#: wproto/view/layout_editor/part_posts_video.tpl:95
+#: wproto/view/layout_editor/part_testimonials.tpl:103
+msgid "Items sort"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:140
+msgid "Text after section content (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_benefits.tpl:166
+#: wproto/view/layout_editor/part_catalog.tpl:114
+#: wproto/view/layout_editor/part_contact.tpl:22
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:114
+#: wproto/view/layout_editor/part_parallax.tpl:203
+#: wproto/view/layout_editor/part_portfolio.tpl:107
+#: wproto/view/layout_editor/part_posts.tpl:106
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:106
+#: wproto/view/layout_editor/part_posts_video.tpl:106
+#: wproto/view/layout_editor/part_pricing_tables.tpl:78
+#: wproto/view/layout_editor/part_product.tpl:40
+#: wproto/view/layout_editor/part_slider.tpl:87
+#: wproto/view/layout_editor/part_subscribe_form.tpl:83
+#: wproto/view/layout_editor/part_testimonials.tpl:114
+#: wproto/view/layout_editor/part_text.tpl:42
+msgid "Menu title (fot one-page template)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_catalog.tpl:2
+msgid "Catalog section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_catalog.tpl:25
+#: wproto/view/layout_editor/part_posts.tpl:25
+msgid "Display items from categories"
+msgstr ""
+
+#: wproto/view/layout_editor/part_contact.tpl:2
+msgid "Contact form &amp; Map"
+msgstr ""
+
+#: wproto/view/layout_editor/part_contact.tpl:54
+msgid "Working Hours"
+msgstr ""
+
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:2
+msgid "Hexagon carousel portfolio section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_hexagon_carousel.tpl:25
+msgid "Display portfolio items from categories"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:2
+msgid "Parallax section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:7
+msgid "Section background"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:12
+#: wproto/view/settings/settings.tpl:883
+#: wproto/view/settings/settings.tpl:1108
+msgid "Background image:"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:24
+#: wproto/view/settings/settings.tpl:900
+#: wproto/view/settings/settings.tpl:1125
+msgid "Background repeat:"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:26
+#: wproto/view/settings/settings.tpl:902
+#: wproto/view/settings/settings.tpl:1127
+msgid "Repeat horizontal and vertical"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:27
+#: wproto/view/settings/settings.tpl:903
+#: wproto/view/settings/settings.tpl:1128
+msgid "Horizontal repeat"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:28
+#: wproto/view/settings/settings.tpl:904
+#: wproto/view/settings/settings.tpl:1129
+msgid "Vertical repeat"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:29
+#: wproto/view/settings/settings.tpl:905
+#: wproto/view/settings/settings.tpl:1130
+msgid "No repeat"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:41
+#: wproto/view/settings/settings.tpl:912
+#: wproto/view/settings/settings.tpl:1137
+msgid "Horizontal background position:"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:57
+#: wproto/view/settings/settings.tpl:923
+#: wproto/view/settings/settings.tpl:1148
+msgid "Vertical background position:"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:69
+msgid "Parallax speed"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:85
+msgid "Section text (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:111
+#: wproto/view/layout_editor/part_portfolio.tpl:74
+msgid "Display call to action button after text?"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:131
+#: wproto/view/layout_editor/part_portfolio.tpl:94
+#: wproto/view/layout_editor/part_slider.tpl:74
+msgid "Take a tour"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:144
+msgid "Display subscribe form?"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:161
+#: wproto/view/layout_editor/part_subscribe_form.tpl:23
+#: wproto/view/settings/settings.tpl:1029
+msgid "Form action"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:162
+#: wproto/view/layout_editor/part_subscribe_form.tpl:28
+#: wproto/view/settings/settings.tpl:1030
+msgid "Enter MailChimp form action"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:166
+#: wproto/view/settings/settings.tpl:1034
+msgid "User ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:167
+#: wproto/view/settings/settings.tpl:1035
+msgid "Enter MailChimp user ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:171
+#: wproto/view/settings/settings.tpl:1039
+msgid "List ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:172
+#: wproto/view/settings/settings.tpl:1040
+msgid "Enter MailChimp list ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:176
+msgid "\"Your name\" Input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:177
+msgid "Enter MailChimp 'Your name' input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:181
+msgid "\"Your phone\" Input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:182
+msgid "Enter MailChimp 'Your phone' input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:186
+#: wproto/view/settings/settings.tpl:1044
+msgid "\"Your email\" Input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:187
+#: wproto/view/settings/settings.tpl:1045
+msgid "Enter MailChimp 'Your email' input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_parallax.tpl:195
+msgid "Custom CSS for parallax section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_portfolio.tpl:2
+msgid "Portfolio section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_portfolio.tpl:48
+msgid "Text after portfolio filter (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_posts.tpl:2
+msgid "Blog posts section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:2
+msgid "Photoalbum posts carousel"
+msgstr ""
+
+#: wproto/view/layout_editor/part_posts_photoalbum.tpl:25
+#: wproto/view/layout_editor/part_posts_video.tpl:25
+msgid "Display videos from categories"
+msgstr ""
+
+#: wproto/view/layout_editor/part_posts_video.tpl:2
+msgid "Video posts carousel"
+msgstr ""
+
+#: wproto/view/layout_editor/part_pricing_tables.tpl:2
+msgid "Pricing tables section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_pricing_tables.tpl:6
+msgid "Text before table (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_pricing_tables.tpl:32
+msgid "Select table to display"
+msgstr ""
+
+#: wproto/view/layout_editor/part_pricing_tables.tpl:52
+msgid "Text after table (optional)"
+msgstr ""
+
+#: wproto/view/layout_editor/part_product.tpl:2
+msgid "Products section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_product.tpl:22
+msgid "Section style"
+msgstr ""
+
+#: wproto/view/layout_editor/part_product.tpl:31
+msgid "Display \"Best ratings\", \"Reviews on our blog\" and \"Best sellers\""
+msgstr ""
+
+#: wproto/view/layout_editor/part_product.tpl:32
+msgid "Display \"New arrivals\""
+msgstr ""
+
+#: wproto/view/layout_editor/part_product.tpl:33
+msgid "Display \"Best sellers\""
+msgstr ""
+
+#: wproto/view/layout_editor/part_slider.tpl:2
+msgid "Slider section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_slider.tpl:28
+msgid "Display call to action block below slider"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:2
+msgid "Subscribe form section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:34
+msgid "Mail Chimp User ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:38
+msgid "Enter MailChimp User ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:44
+msgid "Mail Chimp List ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:48
+msgid "Enter MailChimp List ID"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:54
+msgid "\"Your name\" input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:58
+msgid "Enter 'Your name' input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:64
+msgid "\"Your phone\" input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:68
+msgid "Enter 'Your phone' input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:74
+msgid "\"Your email\" input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_subscribe_form.tpl:78
+msgid "Enter 'Your email' input name"
+msgstr ""
+
+#: wproto/view/layout_editor/part_testimonials.tpl:2
+msgid "Testimonials section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_testimonials.tpl:25
+msgid "Display testimonials from categories"
+msgstr ""
+
+#: wproto/view/layout_editor/part_text.tpl:2
+msgid "Text section"
+msgstr ""
+
+#: wproto/view/layout_editor/part_text.tpl:22
+msgid "Section text"
+msgstr ""
+
+#: wproto/view/layout_editor/section.tpl:32
+msgid "Products"
+msgstr ""
+
+#: wproto/view/layout_editor/section.tpl:36
+msgid "Posts Carousel"
+msgstr ""
+
+#: wproto/view/layout_editor/section.tpl:56
+msgid "Hexagon carousel"
+msgstr ""
+
+#: wproto/view/layout_editor/section.tpl:60
+msgid "Pricing tables"
+msgstr ""
+
+#: wproto/view/layout_editor/section.tpl:74
+msgid "Delete section"
+msgstr ""
+
+#: wproto/view/layout_editor/section.tpl:74
+msgid "Click here to remove section"
+msgstr ""
+
+#: wproto/view/layout_editor/section.tpl:75
+msgid "Click here to edit section content"
+msgstr ""
+
+#: wproto/view/metaboxes/attached_images.tpl:29
+msgid "1 image selected"
+msgstr ""
+
+#: wproto/view/metaboxes/attached_images_item.tpl:23
+msgid "Alternative text"
+msgstr ""
+
+#: wproto/view/metaboxes/attached_images_item.tpl:27
+msgid "Caption"
+msgstr ""
+
+#: wproto/view/metaboxes/benefits_style.tpl:2
+msgid "Custom link"
+msgstr ""
+
+#: wproto/view/metaboxes/benefits_style.tpl:6
+msgid "Animation settings"
+msgstr ""
+
+#: wproto/view/metaboxes/benefits_style.tpl:28
+msgid "Animation delay in seconds"
+msgstr ""
+
+#: wproto/view/metaboxes/benefits_style.tpl:30
+msgid "(for example: 0.3)"
+msgstr ""
+
+#: wproto/view/metaboxes/benefits_style.tpl:33
+msgid "Use Featured Image as benefit icon"
+msgstr ""
+
+#: wproto/view/metaboxes/benefits_style.tpl:36
+msgid "Select an icon from the library"
+msgstr ""
+
+#: wproto/view/metaboxes/catalog.tpl:12
+msgid "Old price"
+msgstr ""
+
+#: wproto/view/metaboxes/catalog.tpl:13 wproto/view/metaboxes/catalog.tpl:22
+msgid "(optional)"
+msgstr ""
+
+#: wproto/view/metaboxes/catalog.tpl:30
+msgid "Link to buy"
+msgstr ""
+
+#: wproto/view/metaboxes/catalog.tpl:38
+#: wproto/view/metaboxes/product_badges.tpl:3
+msgid "Display additional badges"
+msgstr ""
+
+#: wproto/view/metaboxes/catalog.tpl:42
+#: wproto/view/metaboxes/product_badges.tpl:5
+msgid "Do not display"
+msgstr ""
+
+#: wproto/view/metaboxes/catalog.tpl:43
+#: wproto/view/metaboxes/product_badges.tpl:6
+msgid "Display \"On Sale\" badge"
+msgstr ""
+
+#: wproto/view/metaboxes/catalog.tpl:44
+#: wproto/view/metaboxes/product_badges.tpl:7
+msgid "Display \"Best price\" badge"
+msgstr ""
+
+#: wproto/view/metaboxes/menu_archives.tpl:12
+#: wproto/view/metaboxes/menu_archives.tpl:16
+msgid "Home page"
+msgstr ""
+
+#: wproto/view/metaboxes/menu_archives.tpl:82
+msgid "Select All"
+msgstr ""
+
+#: wproto/view/metaboxes/menu_archives.tpl:85
+msgid "Add to Menu"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:20
+msgid "Redirect code"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:22
+msgid "301 Moved Permanently"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:23
+msgid "302 Moved Temporarily"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:24
+msgid "307 Temporary Redirect"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:30
+msgid "To another page"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:33
+msgid "To another URL"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:36
+msgid "Choose a page"
+msgstr ""
+
+#: wproto/view/metaboxes/page_redirect.tpl:40
+msgid "Type URL"
+msgstr ""
+
+#: wproto/view/metaboxes/portfolio.tpl:2
+msgid "Launch link"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:5
+#: wproto/view/metaboxes/pricing_table_editor.tpl:77
+msgid "Packages &amp; Features"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:6
+msgid "Basic"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:7
+msgid "Pro"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:8
+msgid "Unlimited"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:9
+#: wproto/view/metaboxes/pricing_table_editor.tpl:85
+msgid "Add package"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:14
+#: wproto/view/metaboxes/pricing_table_editor.tpl:90
+msgid "Add feature"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:34
+#: wproto/view/metaboxes/pricing_table_editor.tpl:119
+#: wproto/view/widgets/portfolio.tpl:46
+msgid "Details"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:45
+#: wproto/view/metaboxes/pricing_table_editor.tpl:130
+msgid "Button URL"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:66
+msgid "Your feature"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:68
+msgid "Basic value"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:69
+msgid "Pro value"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor.tpl:70
+msgid "Unlimited value"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor_style.tpl:3
+msgid "Exquisite"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor_style.tpl:4
+msgid "Standard"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor_style.tpl:5
+msgid "Colored"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor_tip.tpl:1
+msgid ""
+"You can use these shortcodes to display some graphics in your table. "
+"Selected shortcode will be replaced with appropriate icon"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_editor_tip.tpl:9
+msgid "Shortcode"
+msgstr ""
+
+#: wproto/view/metaboxes/pricing_table_subtitle.tpl:2
+msgid "Table description text"
+msgstr ""
+
+#: wproto/view/metaboxes/team_member.tpl:2 wproto/view/widgets/team.tpl:72
+msgid "Age"
+msgstr ""
+
+#: wproto/view/metaboxes/team_member.tpl:2 wproto/view/shortcodes/team.tpl:53
+msgid "years old"
+msgstr ""
+
+#: wproto/view/metaboxes/team_member.tpl:5 wproto/view/widgets/team.tpl:77
+msgid "Experience"
+msgstr ""
+
+#: wproto/view/metaboxes/team_member.tpl:11
+msgid "Twitter URL"
+msgstr ""
+
+#: wproto/view/metaboxes/team_member.tpl:14
+msgid "Facebook URL"
+msgstr ""
+
+#: wproto/view/metaboxes/team_member.tpl:17
+msgid "LinkedIn URL"
+msgstr ""
+
+#: wproto/view/metaboxes/video.tpl:2
+msgid "Link to the video"
+msgstr ""
+
+#: wproto/view/metaboxes/video.tpl:2
+msgid "Get video"
+msgstr ""
+
+#: wproto/view/metaboxes/video.tpl:5
+msgid "For example"
+msgstr ""
+
+#: wproto/view/metaboxes/video.tpl:8
+msgid "Now supports"
+msgstr ""
+
+#: wproto/view/metaboxes/video.tpl:8
+msgid "and"
+msgstr ""
+
+#: wproto/view/metaboxes/video.tpl:8
+msgid "services"
+msgstr ""
+
+#: wproto/view/metaboxes/video_content.tpl:1
+msgid "Grab Title"
+msgstr ""
+
+#: wproto/view/metaboxes/video_content.tpl:1
+msgid "Click at the link to use this title as a post title."
+msgstr ""
+
+#: wproto/view/metaboxes/video_content.tpl:6
+msgid "Video thumbnail"
+msgstr ""
+
+#: wproto/view/metaboxes/video_content.tpl:7
+msgid "Parameters"
+msgstr ""
+
+#: wproto/view/metaboxes/video_content.tpl:17
+msgid "Width"
+msgstr ""
+
+#: wproto/view/metaboxes/video_content.tpl:20
+msgid "Height"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:6
+msgid "General"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:7
+msgid "API"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:9
+msgid "Custom modes"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:10
+msgid "Custom posts"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:11
+msgid "Tools"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:15
+msgid "Settings saved"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:31
+msgid "Branding"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:60
+msgid "Header logo"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:62
+msgid "Image logo"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:63
+msgid "Text-based Site Title and Tagline."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:67
+msgid "Logo image"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:69
+msgid "Default theme logo"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:70
+msgid "Upload custom logo"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:74
+msgid "Custom website logo"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:77 wproto/view/settings/settings.tpl:87
+msgid "Your website logo"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:81 wproto/view/settings/settings.tpl:91
+msgid "Remove logo"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:83
+msgid "Upload a logo for your theme."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:93
+msgid ""
+"Hi-resolution logo website logo for Retina Displays (should have a twice "
+"size)."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:99
+msgid "Site title and tagline"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:102
+msgid "Enter site title here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:105
+msgid "Enter site tagline here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:106
+msgid "In a few words, explain what this site is about."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:111
+msgid "Favicon"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:133
+msgid "Apple touch icons"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:155
+msgid "Misc"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:234
+msgid "Header menu scrolling"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:239
+msgid "Scroll"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:240
+msgid "Do not scroll"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:249
+msgid "Related posts block"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:250
+msgid "Block title and subtitle"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:255
+msgid "Common for all pages"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:256
+msgid "Individual for each page"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:275
+msgid "Related posts block subtitle"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:285
+msgid "Contacts page"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:291
+msgid "This page link will be used at full-width header style"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:297
+msgid "Retina Support"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:302 wproto/view/settings/settings.tpl:330
+#: wproto/view/settings/settings.tpl:397
+msgid "Enabled"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:303 wproto/view/settings/settings.tpl:331
+#: wproto/view/settings/settings.tpl:398
+msgid "Disabled"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:308
+msgid ""
+"Disabling this option will reduce the space occupied by the site, but some "
+"images will be blurred at high pixel density displays."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:314
+msgid "Iconic Fonts"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:321
+msgid ""
+"Enabling additional font libraries will add 1200+ premium icons, but may "
+"affect site loading speed."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:326
+msgid "RSS"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:339
+msgid "Display thumbnails at RSS feed"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:352
+msgid "Hide Infobox"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:362
+msgid "Enable / Disable infobox at some admin screens"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:367
+msgid "Do not display admin bar for logged non-admins at front-end part"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:380
+msgid "Do not display author info block after posts content"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:393
+msgid "Breadcrumbs"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:409
+msgid "Enable likes on posts"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:411
+msgid "Enable likes on comments"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:414
+msgid "Number of likes to display 5-star rating"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:420
+msgid "Display post views count at front-end part"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:433
+msgid "Display \"GoTop\" box at bottom of the page"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:446
+msgid "Your telephone number"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:449
+msgid "Phone number will be displayed at header sticker"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:453
+msgid "Copyright"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:456
+msgid "Your copyright information"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:460
+msgid "Tracking code"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:463
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:467
+msgid "Catalog currency"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:470
+msgid "Currency name, like $"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:474
+msgid "Display currency"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:476
+msgid "Before price"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:477
+msgid "After price"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:481
+msgid "Give credits to WPlab"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:489
+msgid "Thank you so much!"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:497
+msgid "Social"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:521
+msgid "Paste your Dribble profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:524
+msgid "Paste your Facebook profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:527
+msgid "Paste your Flickr profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:530
+msgid "Paste your Google profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:533
+msgid "Paste your LinkedIn profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:536
+msgid "Paste your Tumblr profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:539
+msgid "Paste your Twitter profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:542
+msgid "Paste your YouTube profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:546
+msgid "Paste your Instagram profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:549
+msgid "Paste your Pinterest profile URL here"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:558
+msgid "Share buttons code"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:561
+#, php-format
+msgid ""
+"Paste your <a href=\"%s\" target=\"_blank\">share buttons code</a> here. "
+"This code will be added before the comments list instead of default share "
+"buttons."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:567 wproto/view/settings/settings.tpl:702
+#: wproto/view/settings/settings.tpl:765
+#: wproto/view/settings/settings.tpl:1188
+#: wproto/view/settings/settings.tpl:1267
+#: wproto/view/settings/settings.tpl:1366
+msgid "Save settings"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:579
+msgid "API Settings"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:603
+msgid "Google API key"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:604
+msgid "Will be used to get Google Fonts"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:616
+msgid "Enable Google OAuth"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:617
+msgid "Anyone will be able to login / signup with Google Account"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:630
+msgid "Google Client ID"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:631 wproto/view/settings/settings.tpl:644
+msgid "Will be used for authentication with Google Account"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:643
+msgid "Google Client Secret"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:661
+msgid "Enable Facebook OAuth"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:662
+msgid "Anyone will be able to login / signup with Facebook Account"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:675
+msgid "Facebook App ID"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:676 wproto/view/settings/settings.tpl:689
+msgid "Will be used for authentication with Facebook Account"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:688
+msgid "Facebook Client Secret"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:714
+msgid "Captcha settings"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:732
+msgid "Display captcha at comment form"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:743
+msgid "Do not show captcha for registered users"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:754
+msgid "Arithmetic actions for captcha"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:756
+msgid "Minus (-)"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:757
+msgid "Plus (+)"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:758
+msgid "Division (/)"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:759
+msgid "Multiply (*)"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:777
+msgid "Maintenance mode"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:790
+msgid "Enable maintenance mode"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:797
+msgid ""
+"All pages of your website will be not availabled to visitors and search "
+"engines while maintenance mode is enabled."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:802
+msgid "Maintenance page text"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:829
+msgid "Maintenance page style settings"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:862
+msgid "Maintenance page style"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:867
+#: wproto/view/settings/settings.tpl:1092
+msgid "Logo image:"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:875
+#: wproto/view/settings/settings.tpl:1100
+msgid "Logo image for Retina Displays:"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:875 wproto/view/settings/settings.tpl:891
+#: wproto/view/settings/settings.tpl:1100
+#: wproto/view/settings/settings.tpl:1116
+msgid "image in twice size"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:891
+#: wproto/view/settings/settings.tpl:1116
+msgid "Background image for Retina Displays:"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:936
+#: wproto/view/settings/settings.tpl:1161
+msgid "Fixed Background"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:949
+#: wproto/view/settings/settings.tpl:1174
+msgid "Zoom Background Effect"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:962
+msgid "Coming soon mode"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:991
+msgid "Enable coming soon mode"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:998
+msgid ""
+"All pages of your website will be not availabled to visitors and search "
+"engines while coming soon mode is enabled."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1003
+msgid "Basic settings"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1006
+msgid "The planned website opening date"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1009
+msgid "Day / Month / Year"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1014
+msgid "Show subscribe form"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1054
+msgid "Coming soon page style settings"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1087
+msgid "Coming soon page style"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1200
+msgid "Disable public custom post types"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1221
+msgid "Disable Videos"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1232
+msgid "Disable Photo Albums"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1243
+msgid "Disable Catalog"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1254
+msgid "Disable Portfolio"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1280
+msgid "Demo Data"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1284
+msgid ""
+"Click the button to import some demo data if you don't want to read "
+"documentation and you need a help :)"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1286
+#: wproto/view/settings/settings.tpl:1303
+#: wproto/view/settings/settings.tpl:1320
+#: wproto/view/settings/settings.tpl:1337
+msgid "To start this operation, just click the button below."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1288
+msgid "Install Sample Data"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1291
+msgid ""
+"Please wait... It takes some time, so do not refresh this window until "
+"operation will be completed."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1297
+msgid "Thumbnails Rebuild"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1301
+msgid ""
+"If you migrated from another wordpress theme, you need to regenerate "
+"existing thumbnails images."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1305
+msgid "Rebuild all thumbnails"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1308
+msgid "Rebuilding 1 of 8"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1314
+#: wproto/view/settings/settings.tpl:1322
+msgid "Flush rewrite rules"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1318
+msgid "Update rewrite rules, if you have troubles with custom post types."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1325
+msgid "Flushing..."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1331
+msgid "Grab Google Fonts"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1335
+msgid ""
+"To improve performance we cache list of Google fonts locally. As new fonts "
+"will be availabled at Google, you can download the new fonts list by "
+"clicking on the button at right. You need to enter Google API key at \"Social"
+"\" settings tab to get this data."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1339
+msgid "Grab google fonts list"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1342
+msgid "Grabbing..."
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1348
+msgid "Custom CSS code"
+msgstr ""
+
+#: wproto/view/settings/settings.tpl:1358
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: wproto/view/shortcodes/contact_form.tpl:22
+#: wproto/view/shortcodes/contact_form.tpl:23
+#: wproto/view/widgets/contact_form.tpl:36
+#: wproto/view/widgets/contact_form.tpl:37
+msgid "Message"
+msgstr ""
+
+#: wproto/view/shortcodes/contact_form.tpl:31
+#: wproto/view/widgets/contact_form.tpl:43
+msgid "Submit"
+msgstr ""
+
+#: wproto/view/shortcodes/pricing_tables.tpl:29
+msgid "Plane"
+msgstr ""
+
+#: wproto/view/widgets/login.tpl:26
+msgid "Logout?"
+msgstr ""

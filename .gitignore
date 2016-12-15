@@ -2,7 +2,7 @@
 wp-config.php
 node_modules
 wp-content/uploads/ninja-forms/
-voyages-media/*		
+/voyages-media/*
 
 # Compiled source #
 ###################

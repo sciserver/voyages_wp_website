@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<jnlp spec="1.0+" codebase="http://voyages.sdss.org/topcat" 
+                  href="topcat-full-local.jnlp">
+  <information>
+    <title>TOPCAT</title>
+    <vendor>Mark Taylor, Bristol University, UK</vendor>
+    <homepage href="http://www.starlink.ac.uk/topcat"/>
+    <description kind="one-line">"TOPCAT - Full version"</description>
+    <icon href="http://www.starlink.ac.uk/topcat/images/tc_sok.gif"/>
+    <offline-allowed/>
+    <shortcut><desktop/></shortcut>
+    <related-content href="http://www.starlink.ac.uk/topcat/sun253/index.html">
+      <title>SUN/253</title>
+      <description kind="one-line">Comprehensive user document</description>
+    </related-content>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5+"/>
+    <jar href="http://voyages.sdss.org/topcat/topcat-full.jar"/>
+  </resources>
+  <application-desc main-class="org.sdss.voyages.topcat.Driver" />
+</jnlp>

@@ -484,7 +484,8 @@ class mailchimpSF_Widget extends WP_Widget {
 		$widget_ops = array( 
 			'description' => __('Displays a MailChimp Subscribe box', 'mailchimp_i18n')
 		);
-		$this->WP_Widget('mailchimpSF_widget', __('MailChimp Widget', 'mailchimp_i18n'), $widget_ops);
+		//$this->WP_Widget('mailchimpSF_widget', __('MailChimp Widget', 'mailchimp_i18n'), $widget_ops);
+		parent::__construct('mailchimpSF_widget', __('MailChimp Widget', 'mailchimp_i18n'), $widget_ops);
 	}
 	function widget( $args, $instance ) {
 		if (!is_array($instance)) {

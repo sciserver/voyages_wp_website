@@ -1,10 +1,9 @@
 === Recent Tweets Widget ===
-Contributors: themeprince
-Donate link: http://themeprince.com/
-Tags: recent tweets, twitter widget, twitter api v1.1, cache
+Contributors: noahkagan
+Tags: recent tweets, twitter widget, twitter api v1.1, cache, twitter, tweets, social media
 Requires at least: 3.4.1
-Tested up to: 4.0
-Stable tag: 1.4
+Tested up to: 4.7
+Stable tag: 1.6.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,12 +16,12 @@ Recent Tweets Widget plugin for Twitter API v1.1 with Cache. It uses the new Twi
 
 == Installation ==
 
-1. Unzip the downloaded zip file
+1. Unzip the downloaded zip file.
 2. Upload the `recent-tweets` folder and its contents into the `wp-content/plugins/` directory of your WordPress installation
-3. Activate Recent Tweets Widget from Plugins page
-4. Go to your Widgets menu, add `* Recent Tweets` widget to a widget area
-5. Visit [this link](https://dev.twitter.com/apps/ "Twitter") in a new tab, sign in with your account, click on `Create a new application` and create your own keys in case you don't have already
-6. Fill all your widget settings
+3. Activate Recent Tweets Widget from Plugins page.
+4. Go to your Widgets menu, add `* Recent Tweets` widget to a widget area.
+5. Visit [https://apps.twitter.com/](https://apps.twitter.com/ "Twitter") in a new tab, sign in with your account, click on `Create a new application` and create your own keys if you haven't already.
+6. Fill all your widget settings.
 7. Enjoy your new Twitter feed! :)
 
 
@@ -30,7 +29,7 @@ Recent Tweets Widget plugin for Twitter API v1.1 with Cache. It uses the new Twi
 
 = How can I get Consumer Key, Consumer Secret, Access Token and Access Token Secret?  =
 
-You will need to visit [this link](https://dev.twitter.com/apps/ "Twitter"), sign in with your account and create your own keys.
+You will need to visit [https://apps.twitter.com/](https://apps.twitter.com/ "Twitter"), sign in with your account and create your own keys.
 
 == Screenshots ==
 
@@ -38,6 +37,26 @@ You will need to visit [this link](https://dev.twitter.com/apps/ "Twitter"), sig
 2. How it looks on frontend page
 
 == Changelog ==
+= 1.6.7 =
+Minor widget CSS change.
+
+= 1.6.6 =
+Update compatible Wordpress version.
+
+= 1.6.5 =
+* Updated twitter logo
+* Removed line break before time link and use css instead
+* Fixed some undefined array key and undefined notices
+* Fix for redeclaring OAuthException class
+
+= 1.6.4 =
+* Fix widget for WP 4.3
+
+= 1.6 =
+* Fix bug on settings page
+
+= 1.5 =
+* Settings page and other updates
 
 = 1.4 =
 * PHP 5.5 deprecated preg_replace() function fix

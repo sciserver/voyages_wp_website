@@ -1,8 +1,8 @@
 .htaccess
 wp-config.php
 node_modules
+voyages-media
 wp-content/uploads/ninja-forms/
-/voyages-media/*
 
 # Compiled source #
 ###################
@@ -42,3 +42,11 @@ wp-content/uploads/ninja-forms/
 ehthumbs.db
 Thumbs.db
 
+######################
+# OVERRIDES          #
+######################
+# Ignore uploads except for ninja-forms, which we do want to ignore
+!wp-content/uploads/*/*/*.zip
+!wp-content/uploads/*/*.zip
+!wp-content/uploads/*.zip
+wp-content/uploads/ninja-forms/*.zip

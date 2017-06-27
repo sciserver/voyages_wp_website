@@ -3,6 +3,7 @@ wp-config.php
 node_modules
 voyages-media
 wp-content/uploads/ninja-forms/
+es/
 
 # Compiled source #
 ###################

@@ -1,3 +1,6 @@
 [submodule "wp-content/themes/wpl-galaxy"]
 	path = wp-content/themes/wpl-galaxy
 	url = git@github.com:sciserver/voyages_wp_theme.git
+[submodule "wp-content/plugins/updatez"]
+	path = wp-content/plugins/updatez
+	url = git@github.com:sciserver/voyages_wp_website.git

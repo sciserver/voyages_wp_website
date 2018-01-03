@@ -7,3 +7,6 @@
 [submodule "es"]
 	path = es
 	url = git@github.com:sciserver/voyages_wp_website.git
+[submodule "wp-content/plugins/sqlsearchwp"]
+	path = wp-content/plugins/sqlsearchwp
+	url = git@github.com:sciserver/SQLSearchWP.git

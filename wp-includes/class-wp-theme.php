@@ -216,6 +216,7 @@ final class WP_Theme implements ArrayAccess {
 				wp_cache_add_non_persistent_groups( 'themes' );
 			}
 		}
+
 		$this->theme_root = $theme_root;
 		$this->stylesheet = $theme_dir;
 
@@ -241,10 +242,8 @@ final class WP_Theme implements ArrayAccess {
 				$theme_root_template = $cache['theme_root_template'];
 		} elseif ( ! file_exists( $this->theme_root . '/' . $theme_file ) ) {
 			$this->headers['Name'] = $this->stylesheet;
-			if ( ! file_exists( $this->theme_root . '/' . $this->stylesheet ) ){
+			if ( ! file_exists( $this->theme_root . '/' . $this->stylesheet ) )
 				$this->errors = new WP_Error( 'theme_not_found', sprintf( __( 'The theme directory "%s" does not exist.' ), esc_html( $this->stylesheet ) ) );
-			}
-				
 			else
 				$this->errors = new WP_Error( 'theme_no_stylesheet', __( 'Stylesheet is missing.' ) );
 			$this->template = $this->stylesheet;

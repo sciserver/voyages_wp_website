@@ -1,0 +1,43 @@
+/*
+ * SolarSystemSearch Plugin
+ * v1.0.0
+ */
+
+// Core variables and mixins
+@import "../vendor/bootstrap/less/bootstrap.less";
+
+.ssswp-wrap{
+	h2 {
+		.h3;
+	}
+	a.collapsed[data-toggle="collapse"]:before {
+		content: "\e081";
+	}
+	a[data-toggle="collapse"]:before {
+		font-family: 'Glyphicons Halflings';
+		content: "\e082";
+		float: left;
+		padding-right: 15px;
+	}
+	a[data-toggle="collapse"]:before {
+		font-family: 'Glyphicons Halflings';
+		content: "\e082";
+		float: left;
+		padding-right: 15px;
+		& .collapsed {
+			content: "\e081";
+		}
+	}
+	.ssswp-messages{
+		margin-bottom: 10px;
+	}
+	.ssswp-instructions{
+	}
+	.ssswp-form{
+	}
+	.ssswp-results-wrap.well {
+		overflow-x: scroll;
+	}
+	.ssswp-results{
+	}
+}

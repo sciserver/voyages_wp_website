@@ -1,4 +1,4 @@
-/*! solarsystemsearch - v1.0.0 - by:1.0.0 - license: - 2018-01-09 */+function ($) {
+/*! solarsystemsearch - v1.0.0 - by:1.0.0 - license: - 2019-02-08 */+function ($) {
   'use strict';
 
   // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
@@ -1735,7 +1735,9 @@
 			var basequery = $( solarsystemsearch.context ).data('ssswp-query');
 			var which = $( solarsystemsearch.context ).data('ssswp-which');
 			var target = solarsystemsearch.targets[which];
-			var query = $('#ssswp-query').text();
+			
+			//initialize query to be default text
+			target.data.Query = $('#ssswp-query').text();
 
 			// Show the Search Page
 			this.showForm( solarsystemsearch.context , false , true );
@@ -1748,12 +1750,40 @@
 			if ( which === 'mpcorb' ) {
 				
 				$( solarsystemsearch.context ).on( "change" , "#ssswp-num" , solarsystemsearch.doRegenerate );
-				$( solarsystemsearch.context ).on( "change" , "#ssswp-coords" , solarsystemsearch.doRegenerate );
+				$( solarsystemsearch.context ).on( "change" , "#ssswp-coord" , solarsystemsearch.doRegenerate );
 			}
-			$( solarsystemsearch.context ).on( "click" , "#ssswp-submit" , { query: query , target:target , which:which } , solarsystemsearch.doSubmit );
+			$( solarsystemsearch.context ).on( "click" , "#ssswp-submit" , { target:target , which:which } , solarsystemsearch.doSubmit );
+			$( solarsystemsearch.context ).on( "click" , "#ssswp-download", solarsystemsearch.doDownload);
 			//$( solarsystemsearch.context ).on( "click" , "#ssswp-reset" , solarsystemsearch.doReset );
 			//$( solarsystemsearch.context ).on( "click" , "#ssswp-syntax" , solarsystemsearch.doSyntax );
 			
+		},
+		
+		doDownload: function(e) {
+			var docText = sessionStorage.getItem('queryResults');
+			var lines = docText.split('\n');
+			docText = '';
+			for (var i = 0; i < lines.length-1; i++) {
+				var values = lines[i].split(',');
+				for (var x = 0; x < values.length; x++) {
+					values[x] = '\"'.concat(values[x]);
+					values[x] += '\"';
+					docText += values[x];
+					if (x !== values.length - 1) {
+						docText += ',';
+					}
+				}
+				if (i !== lines.length - 1) {
+					docText += '\n';
+				}
+			}
+			var name = 'results.csv';
+			var type = 'text/csv';
+            var a = document.createElement("a");
+			var file = new Blob([docText], {type: type});
+			a.href = URL.createObjectURL(file);
+			a.download = name;
+			a.click();
 		},
 		
 		/**
@@ -1765,8 +1795,7 @@
 			if (SSSWPDEBUG) { console.log('doSubmit'); }
 			
 			//if (SSSWPDEBUG) { console.log( e.data ); }
-			
-			var query = e.data.query;
+			var query = e.data.target.data.Query;
 			var target = e.data.target;
 			var which = e.data.which;
 			
@@ -1804,6 +1833,11 @@
 		**/
 		doRegenerate: function( e ) {
 			if (SSSWPDEBUG) { console.log('doRegenerate'); }
+			var coord = $( '#ssswp-coord' , solarsystemsearch.context ).prop('value');
+			var num = $( '#ssswp-num' ,  solarsystemsearch.context ).prop('value');
+			var newQuery = "select top " + num + " name, " + coord + " from mpcorb";
+			document.getElementById("ssswp-query").innerHTML = newQuery;
+			solarsystemsearch.targets.mpcorb.data.Query = newQuery;
 		},
 		
 		/**
@@ -1912,19 +1946,14 @@
 		 * @param Boolean $append Append or replace current message(s)
 		**/
 		showResults: function( results , append , show ) {
+			sessionStorage.setItem('queryResults', results);
 			var container = $( '#ssswp-results' );
 
 			var contents = ( append !== undefined && append ) ? $(container).html() : '' ;
 			
 			contents += ( results !== undefined ) ? '<pre>'+results+'</pre>' : '' ;
 			$(container).html( contents );
-			/*/
-			if ( show ) {
-				$( container ).addClass('collapse in');
-			} else {
-				$( container ).removeClass('in');
-			}
-			/*/
+
 			solarsystemsearch.doCollapse( '#ssswp-results-wrap>h2>a:[data-toggle]', container, show );
 		},
 	};

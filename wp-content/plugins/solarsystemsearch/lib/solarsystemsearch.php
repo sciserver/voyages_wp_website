@@ -126,7 +126,7 @@ $ssswp_instructions
 </div>
 <div id="ssswp-form-wrap" class="ssswp-form-wrap well well-sm"> 
 <p class="h4"><a role="button" data-toggle="collapse" href="#ssswp-form" aria-expanded="true" aria-controls="ssswp-form">SQL Search</a></p>
-<div class="form ssswp-form collapse show">
+<div class="form ssswp-form collapse">
 $ssswp_form
 </div>
 </div>

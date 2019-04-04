@@ -1,0 +1,266 @@
+.cdbx-editor-div {
+	/*border : 1px solid rgba(225, 225, 223, 1);*/
+}
+
+.cdbx-editor {
+  min-height:82vh;
+  /*line-height: 1.1;*/
+	/*padding-bottom: 10px;*/
+	/*border: 1px solid rgba(225, 225, 223, 1);*/
+	font-size: 14px;
+}
+
+.cdbx-editor-div-left {
+	float: left;
+	width: 55%;
+	border: 1px solid rgba(225, 225, 223, 1);
+}
+
+.cdbx-editor-div-right {
+	float: right;
+	width: 44%;
+}
+
+.cdbx-textarea-input {
+  resize:vertical;
+	width: 100%;
+}
+
+.cdbx-textbox {
+	border: 1px solid rgba(225, 225, 223, 1);
+	width: 150px;
+	height: 27px;
+  color: #708090;
+}
+
+.cdbx-textbox-key {
+	border: 1px solid rgba(225, 225, 223, 1);
+	width: 300px;
+	height: 27px;
+  color: #708090;
+}
+
+#cdbx-div-output {
+	font-size: 13px;
+	padding: 4px;
+	border: 1px solid rgba(225, 225, 223, 1);
+	margin-top: 10px;
+	margin-bottom: 5px;
+	min-height: 50px;
+    max-height: 48vh;
+    overflow: auto;
+}
+
+#cdbx-div-output-web {
+	border: 1px solid rgba(225, 225, 223, 1);
+	min-height: 65vh;
+    width:100%;
+    margin-top: 5px;
+    padding: 4px;
+}
+
+.cdbx-web-output-frame {
+    width: inherit;
+    min-height: inherit;
+}
+
+.cdbx-div-right-2 {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.cdbx-code-help-div-left {
+	float: left;
+	width: 50%;
+	border: 1px solid rgba(225, 225, 223, 1);
+	min-height: 200px;
+	padding: 5px;
+}
+
+.cdbx-code-help-div-right {
+	float: right;
+	width: 45%;
+	border: 1px solid rgba(225, 225, 223, 1);
+	min-height: 200px;
+	padding: 5px;
+}
+
+.cdbx-btn-1 {
+  font-family: Arial;
+  color: #008B8B;    
+  font-size: 13px;
+  background: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;    
+  border: solid #c0dbdb 1px;
+  border-radius: 0;    
+  text-decoration: none;    
+  float: left;
+  height:30px;
+  outline: none;    
+}
+
+.cdbx-btn-1:hover {
+  background: rgba(225, 225, 223, 1);
+  text-decoration: none;
+  outline: none;    
+}
+
+.cdbx-btn-main {
+  float: right;
+  display: none;    
+}
+
+ul.cdbx-tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+		
+ul.cdbx-tabs li {
+  background: none;
+  /*color: #222;*/
+  display: inline-block;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+ul.cdbx-tabs li.current {
+  background: #ededed;
+  /*color: #222;*/
+}
+
+.cdbx-tab-content {
+  display: none;
+  /*background: #ededed;
+  padding: 15px;*/
+}
+
+.cdbx-tab-content.current {
+  display: inherit;
+}
+
+.cdbx-tabs-web {
+  display: none;
+}
+
+.cdbx-tabs-placeholder {
+  /*display: none;*/
+}
+
+.cdbx-tab-link {
+  border: solid #c0dbdb 1px;
+  border-radius: 10px;
+  min-width: 75px;
+  text-align: center;
+  font-size: 13px;
+  color: #008B8B;    
+}
+
+ul.cdbx-tabs-web {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;    
+}
+		
+ul.cdbx-tabs-web li {
+  background: none;
+  /*color: #222;*/
+  display: inline-block;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+ul.cdbx-tabs-web li.current {
+  background: #ededed;
+  /*color: #222;*/
+}
+
+.cdbx-tab-content-web {
+  display: none;
+  /*background: #ededed;
+  padding: 15px;*/
+}
+
+.cdbx-tab-content-web.current {
+  display: inherit;
+}
+
+.cdbx-dialog-box {
+  border: solid #c0dbdb 1px;
+  border-radius: 10px;
+  padding: 15px;    
+}
+
+.cdbx-info-text {
+  color:darkcyan;    
+}
+
+.cdbx-info-text-1 {
+  color:darkslategrey;
+  font-size: 0.9em;    
+}
+
+.cdbx-label-text {
+  font-size: 1.1em;    
+}
+
+pre {    
+  counter-reset: line;
+}
+
+cdbx-code {
+  counter-increment: line;    
+}
+
+cdbx-code::before {
+  content: counter(line);
+  display: inline-block;
+  text-align: right;    
+  min-width: 3.5em;
+  border-right: 1px solid #ddd;
+  padding: 0 .5em;
+  margin-right: .5em;
+  margin-left: -0.8em;    
+  color: #888;    
+  /*background-color: #F8F8FF; */   
+  -webkit-user-select: none;
+}
+
+.cdbx-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.cdbx-tooltip .cdbx-tooltiptext {
+    visibility: hidden;
+    min-width: 170px;
+    background-color: #ddd;
+    color: #000080;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 3px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: -20%;
+    margin-left: -86px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space:nowrap;
+}
+
+.cdbx-tooltip .cdbx-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.cdbx-tooltip:hover .cdbx-tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

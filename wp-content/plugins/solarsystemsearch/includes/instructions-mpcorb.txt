@@ -1,5 +1,5 @@
 <p class="h4"><a role="button" data-toggle="collapse" href="#ssswp-instructions" aria-expanded="true" aria-controls="ssswp-instructions">Instructions</a></p>
-<div id="ssswp-instructions" class="ssswp-instructions collapse show">
+<div id="ssswp-instructions" class="ssswp-instructions collapse">
 Select <strong>how many asteroids</strong> to return, and whether you want the positions returned as <strong>RA & Dec</strong>, or as <strong>ecliptic latitude and longitude</strong>.<br>
 Click <strong>Submit</strong> to submit your query.
 </div> 

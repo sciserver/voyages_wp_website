@@ -10,3 +10,12 @@
 [submodule "wp-content/plugins/sqlsearchwp"]
 	path = wp-content/plugins/sqlsearchwp
 	url = git@github.com:sciserver/SQLSearchWP.git
+[submodule "wp-content/plugins/ExploreTool"]
+	path = wp-content/plugins/ExploreTool
+	url = git@github.com:idies/ExploreTool.git
+[submodule "wp-content/plugins/SQLSearchWP-Casjobs"]
+	path = wp-content/plugins/SQLSearchWP-Casjobs
+	url = git@github.com:idies/SQLSearchWP-Casjobs.git
+[submodule "wp-content/plugins/voyages-image-list"]
+	path = wp-content/plugins/voyages-image-list
+	url = git@github.com:idies/voyages-image-list.git

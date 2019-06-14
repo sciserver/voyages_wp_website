@@ -4,3 +4,7 @@
 [submodule "wp-content/plugins/updatez"]
 	path = wp-content/plugins/updatez
 	url = git@github.com:sciserver/voyages_wp_website.git
+[submodule "wp-content/plugins/SQLSearchWP_CasJobs.git"]
+	path = wp-content/plugins/SQLSearchWP-Casjobs
+	url = git@github.com:idies/SQLSearchWP_Casjobs.git
+

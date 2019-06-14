@@ -1,0 +1,1 @@
+{"result":{"text":"begin inline style square root of 2 plus cross times end root space S o l v e space i t ? end style"},"status":"ok"}
